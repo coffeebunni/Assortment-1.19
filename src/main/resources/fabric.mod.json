@@ -20,11 +20,12 @@
   "entrypoints": {
     "main": [
       "net.mynastudios.assortment.Assortment"
-    ]
+    ],
+    "client": [
+      "net.mynastudios.assortment.client.AssortmentClient"
+    ],
+    "server": []
   },
-  "mixins": [
-    "assortment.mixins.json"
-  ],
 
   "depends": {
     "fabricloader": ">=0.14.6",
@@ -32,7 +33,6 @@
     "minecraft": "~1.19",
     "java": ">=17"
   },
-  "suggests": {
-    "another-mod": "*"
-  }
+
+  "accessWidener": "assortment.accesswidener"
 }
