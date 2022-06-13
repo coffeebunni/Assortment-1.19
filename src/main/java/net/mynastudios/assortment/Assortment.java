@@ -16,10 +16,11 @@ public class Assortment implements ModInitializer {
 		LOGGER.info("Assortment is installed correctly, loading now! Thanks for installing! <3");
 
 		AssortmentBlockEntityInit.loadBlockEntities();
-		AssortmentBlockInit.loadBlocks();
 		AssortmentItemInit.registerItems();
+		AssortmentBlockInit.loadBlocks();
 		AssortmentRecipeInit.loadRecipes();
 		AssortmentScreenHandlerInit.loadScreens();
+		AssortmentStatInit.registerStats();
 
 		LOGGER.info("Assortment Common: Registry - Mod Fully Loaded!");
 	}

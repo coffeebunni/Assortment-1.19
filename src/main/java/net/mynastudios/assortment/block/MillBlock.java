@@ -1,7 +1,8 @@
 package net.mynastudios.assortment.block;
 
 
-import net.minecraft.block.*;
+import net.minecraft.block.AbstractFurnaceBlock;
+import net.minecraft.block.BlockState;
 import net.minecraft.block.entity.BlockEntity;
 import net.minecraft.block.entity.BlockEntityTicker;
 import net.minecraft.block.entity.BlockEntityType;
@@ -10,39 +11,39 @@ import net.minecraft.particle.ParticleTypes;
 import net.minecraft.screen.NamedScreenHandlerFactory;
 import net.minecraft.sound.SoundCategory;
 import net.minecraft.sound.SoundEvents;
-import net.minecraft.stat.Stats;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.math.Direction;
 import net.minecraft.util.math.random.Random;
 import net.minecraft.world.World;
 import net.mynastudios.assortment.block.entity.KilnBlockEntity;
+import net.mynastudios.assortment.block.entity.MillBlockEntity;
 import net.mynastudios.assortment.registry.AssortmentBlockEntityInit;
 import net.mynastudios.assortment.registry.AssortmentStatInit;
 import org.jetbrains.annotations.Nullable;
 
 @SuppressWarnings("deprecation")
-public class KilnBlock extends AbstractFurnaceBlock {
-    public KilnBlock(AbstractBlock.Settings settings) {
+public class MillBlock extends AbstractFurnaceBlock {
+    public MillBlock(Settings settings) {
         super(settings);
     }
 
     @Override
     public BlockEntity createBlockEntity(BlockPos pos, BlockState state) {
-        return new KilnBlockEntity(pos, state);
+        return new MillBlockEntity(pos, state);
     }
 
     @Override
     @Nullable
     public <T extends BlockEntity> BlockEntityTicker<T> getTicker(World world, BlockState state, BlockEntityType<T> type) {
-        return KilnBlock.checkType(world, type, AssortmentBlockEntityInit.KILN_BLOCK_ENTITY);
+        return MillBlock.checkType(world, type, AssortmentBlockEntityInit.MILL_BLOCK_ENTITY);
     }
 
     @Override
     protected void openScreen(World world, BlockPos pos, PlayerEntity player) {
         BlockEntity blockEntity = world.getBlockEntity(pos);
-        if (blockEntity instanceof KilnBlockEntity) {
+        if (blockEntity instanceof MillBlockEntity) {
             player.openHandledScreen((NamedScreenHandlerFactory)blockEntity);
-            player.incrementStat(AssortmentStatInit.INTERACT_WITH_KILN);
+            player.incrementStat(AssortmentStatInit.INTERACT_WITH_MILL);
         }
     }
 

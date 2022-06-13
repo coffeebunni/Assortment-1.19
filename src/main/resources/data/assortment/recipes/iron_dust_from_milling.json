@@ -1,0 +1,9 @@
+{
+  "type": "assortment:milling",
+  "cookingtime": 100,
+  "experience": 0.3,
+  "ingredient": {
+    "item": "minecraft:raw_iron"
+  },
+  "result": "assortment:iron_dust"
+}

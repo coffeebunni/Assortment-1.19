@@ -1,0 +1,35 @@
+{
+  "variants": {
+    "facing=east,lit=false": {
+      "model": "assortment:block/mill",
+      "y": 90
+    },
+    "facing=east,lit=true": {
+      "model": "assortment:block/mill_on",
+      "y": 90
+    },
+    "facing=north,lit=false": {
+      "model": "assortment:block/mill"
+    },
+    "facing=north,lit=true": {
+      "model": "assortment:block/mill_on"
+    },
+    "facing=south,lit=false": {
+      "model": "assortment:block/mill",
+      "y": 180
+    },
+    "facing=south,lit=true": {
+      "model": "assortment:block/mill_on",
+      "y": 180
+    },
+    "facing=west,lit=false": {
+      "model": "assortment:block/mill",
+      "y": 270
+    },
+    "facing=west,lit=true": {
+      "model": "assortment:block/mill_on",
+      "y": 270
+    }
+  }
+}
+

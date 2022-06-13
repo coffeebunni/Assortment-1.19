@@ -11,11 +11,19 @@ import net.mynastudios.assortment.Assortment;
 
 public class AssortmentItemInit {
     public static void registerItems() {
-        Registry.register(Registry.ITEM, new Identifier(Assortment.MODID, "kiln"),
-                new BlockItem(AssortmentBlockInit.KILN, new FabricItemSettings().group(ItemGroup.DECORATIONS)));
+
+        Registry.register(Registry.ITEM, new Identifier(Assortment.MODID, "coal_dust"),
+                new Item(new FabricItemSettings().group(ItemGroup.MISC)));
+
+        Registry.register(Registry.ITEM, new Identifier(Assortment.MODID, "iron_dust"),
+                new Item(new FabricItemSettings().group(ItemGroup.MISC)));
+
+        Registry.register(Registry.ITEM, new Identifier(Assortment.MODID, "steel_blend"),
+                new Item(new FabricItemSettings().group(ItemGroup.MISC)));
 
         Registry.register(Registry.ITEM, new Identifier(Assortment.MODID, "steel_ingot"),
                 new Item(new FabricItemSettings().group(ItemGroup.MISC)));
+
 
 
         Assortment.LOGGER.info("Assortment Common: Registry - Items Registered");

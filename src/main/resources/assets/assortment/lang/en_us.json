@@ -1,7 +1,19 @@
 {
+  "item.assortment.coal_dust": "Coal Dust",
+  "block.assortment.coal_sand": "Coal Sand",
+
+  "item.assortment.iron_dust": "Iron Dust",
+  "block.assortment.iron_sand": "Iron Sand",
+
+  "item.assortment.steel_blend": "Steel Blend",
+
   "item.assortment.steel_ingot": "Steel Ingot",
+  "block.assortment.steel_block": "Steel Block",
 
   "block.assortment.kiln": "Kiln",
+  "container.assortment.kiln": "Kiln",
+  "stat.assortment.interact_with_kiln": "Interactions with Kiln",
 
-  "container.assortment.kiln": "Kiln"
+  "block.assortment.mill": "Mill",
+  "container.assortment.mill": "Mill"
 }

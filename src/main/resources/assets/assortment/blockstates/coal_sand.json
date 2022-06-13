@@ -1,0 +1,21 @@
+{
+  "variants": {
+    "": [
+      {
+        "model": "assortment:block/coal_sand"
+      },
+      {
+        "model": "assortment:block/coal_sand",
+        "y": 90
+      },
+      {
+        "model": "assortment:block/coal_sand",
+        "y": 180
+      },
+      {
+        "model": "assortment:block/coal_sand",
+        "y": 270
+      }
+    ]
+  }
+}

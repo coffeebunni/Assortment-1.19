@@ -1,0 +1,9 @@
+{
+  "parent": "minecraft:block/orientable",
+  "textures": {
+    "front": "assortment:block/mill_front",
+    "side": "assortment:block/mill_side",
+    "top": "assortment:block/mill_top",
+    "bottom": "assortment:block/mill_bottom"
+  }
+}

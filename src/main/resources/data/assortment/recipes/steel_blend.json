@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "assortment:coal_dust"
+    },
+    {
+      "item": "assortment:iron_dust"
+    }
+  ],
+  "result": {
+    "item": "assortment:steel_blend"
+  }
+}
