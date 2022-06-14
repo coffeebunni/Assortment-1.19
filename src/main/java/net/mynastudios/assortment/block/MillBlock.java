@@ -1,6 +1,5 @@
 package net.mynastudios.assortment.block;
 
-
 import net.minecraft.block.AbstractFurnaceBlock;
 import net.minecraft.block.BlockState;
 import net.minecraft.block.entity.BlockEntity;
@@ -15,7 +14,6 @@ import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.math.Direction;
 import net.minecraft.util.math.random.Random;
 import net.minecraft.world.World;
-import net.mynastudios.assortment.block.entity.KilnBlockEntity;
 import net.mynastudios.assortment.block.entity.MillBlockEntity;
 import net.mynastudios.assortment.registry.AssortmentBlockEntityInit;
 import net.mynastudios.assortment.registry.AssortmentStatInit;

@@ -15,23 +15,22 @@ import net.mynastudios.assortment.Assortment;
 import net.mynastudios.assortment.block.KilnBlock;
 import net.mynastudios.assortment.block.MillBlock;
 
-
 public class AssortmentBlockInit {
 
     public static final Block COAL_SAND = registerBlock("coal_sand",
-            new FallingBlock(FabricBlockSettings.of(Material.SOIL)), ItemGroup.MISC);
+            new FallingBlock(FabricBlockSettings.copyOf(Blocks.SAND)), AssortmentItemGroup.ASSORTMENT);
 
     public static final Block IRON_SAND = registerBlock("iron_sand",
-            new FallingBlock(FabricBlockSettings.of(Material.SOIL)), ItemGroup.MISC);
+            new FallingBlock(FabricBlockSettings.copyOf(Blocks.SAND)), AssortmentItemGroup.ASSORTMENT);
 
     public static final Block STEEL_BLOCK = registerBlock("steel_block",
-            new Block(FabricBlockSettings.of(Material.METAL)), ItemGroup.MISC);
+            new Block(FabricBlockSettings.of(Material.METAL)), AssortmentItemGroup.ASSORTMENT);
 
     public static final Block KILN = registerBlock("kiln",
-            new KilnBlock(FabricBlockSettings.copyOf(Blocks.FURNACE)), ItemGroup.MISC);
+            new KilnBlock(FabricBlockSettings.copyOf(Blocks.FURNACE)), AssortmentItemGroup.ASSORTMENT);
 
     public static final Block MILL = registerBlock("mill",
-            new MillBlock(FabricBlockSettings.copyOf(Blocks.FURNACE)), ItemGroup.MISC);
+            new MillBlock(FabricBlockSettings.copyOf(Blocks.FURNACE)), AssortmentItemGroup.ASSORTMENT);
 
     private static Block registerBlock(String name, Block block, ItemGroup group) {
         registerBlockItem(name, block, group);

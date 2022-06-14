@@ -10,10 +10,20 @@
   "item.assortment.steel_ingot": "Steel Ingot",
   "block.assortment.steel_block": "Steel Block",
 
+  "item.assortment.steel_sword": "Steel Sword",
+  "item.assortment.steel_axe": "Steel Axe",
+  "item.assortment.steel_shovel": "Steel Shovel",
+  "item.assortment.steel_pickaxe": "Steel Pickaxe",
+  "item.assortment.steel_hoe": "Steel Hoe",
+
+  "item.assortment.unfired_pot": "Unfired Pot",
+
   "block.assortment.kiln": "Kiln",
   "container.assortment.kiln": "Kiln",
   "stat.assortment.interact_with_kiln": "Interactions with Kiln",
 
   "block.assortment.mill": "Mill",
-  "container.assortment.mill": "Mill"
+  "container.assortment.mill": "Mill",
+
+  "itemGroup.assortment.assortment": "Assortment"
 }

@@ -3,7 +3,7 @@
   "cookingtime": 100,
   "experience": 0.3,
   "ingredient": {
-    "item": "minecraft:clay_ball"
+    "item": "assortment:coal_sand"
   },
-  "result": "minecraft:brick"
+  "result": "minecraft:tinted_glass"
 }
