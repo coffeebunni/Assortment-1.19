@@ -2,10 +2,15 @@
   "item.assortment.coal_dust": "Coal Dust",
   "block.assortment.coal_sand": "Coal Sand",
 
+  "item.assortment.copper_dust": "Copper Dust",
+
   "item.assortment.iron_dust": "Iron Dust",
   "block.assortment.iron_sand": "Iron Sand",
 
+  "item.assortment.gold_dust": "Gold Dust",
+
   "item.assortment.steel_blend": "Steel Blend",
+  "item.assortment.rose_gold_blend": "Rose Gold Blend",
 
   "item.assortment.steel_ingot": "Steel Ingot",
   "block.assortment.steel_block": "Steel Block",
@@ -16,6 +21,31 @@
   "item.assortment.steel_pickaxe": "Steel Pickaxe",
   "item.assortment.steel_hoe": "Steel Hoe",
 
+  "item.assortment.steel_helmet": "Steel Helmet",
+  "item.assortment.steel_chestplate": "Steel Chestplate",
+  "item.assortment.steel_leggings": "Steel Leggings",
+  "item.assortment.steel_boots": "Steel Boots",
+
+  "item.assortment.rose_gold_ingot": "Rose Gold Ingot",
+  "block.assortment.rose_gold_block": "Rose Gold Block",
+
+  "item.assortment.rose_gold_sword": "Rose Gold Sword",
+  "item.assortment.rose_gold_axe": "Rose Gold Axe",
+  "item.assortment.rose_gold_shovel": "Rose Gold Shovel",
+  "item.assortment.rose_gold_pickaxe": "Rose Gold Pickaxe",
+  "item.assortment.rose_gold_hoe": "Rose Gold Hoe",
+
+  "item.assortment.rose_gold_helmet": "Rose Gold Helmet",
+  "item.assortment.rose_gold_chestplate": "Rose Gold Chestplate",
+  "item.assortment.rose_gold_leggings": "Rose Gold Leggings",
+  "item.assortment.rose_gold_boots": "Rose Gold Boots",
+
+  "item.assortment.steel_horse_armor": "Steel Horse Armor",
+  "item.assortment.rose_gold_horse_armor": "Rose Gold Horse Armor",
+  "item.assortment.netherite_horse_armor": "Netherite Horse Armor",
+
+  "item.assortment.wheat_flour": "Wheat Flour",
+
   "item.assortment.unfired_pot": "Unfired Pot",
 
   "block.assortment.kiln": "Kiln",
@@ -24,6 +54,9 @@
 
   "block.assortment.mill": "Mill",
   "container.assortment.mill": "Mill",
+  "stat.assortment.interact_with_mill": "Interactions with Mill",
+
+  "block.assortment.reinforced_oak_log": "Reinforced Oak Log",
 
   "itemGroup.assortment.assortment": "Assortment"
 }

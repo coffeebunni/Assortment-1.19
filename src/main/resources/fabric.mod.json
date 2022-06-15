@@ -23,9 +23,12 @@
     ],
     "client": [
       "net.mynastudios.assortment.client.AssortmentClient"
-    ],
-    "server": []
+    ]
   },
+
+  "mixins": [
+    "assortment.mixins.json"
+  ],
 
   "depends": {
     "fabricloader": ">=0.14.6",

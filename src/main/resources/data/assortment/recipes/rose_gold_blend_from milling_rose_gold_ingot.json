@@ -1,0 +1,6 @@
+{
+  "type": "assortment:milling",
+  "ingredient": { "item": "assortment:rose_gold_ingot" },
+  "result": "assortment:rose_gold_blend",
+  "count": 1
+}

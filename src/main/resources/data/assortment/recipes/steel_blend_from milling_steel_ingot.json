@@ -1,0 +1,6 @@
+{
+  "type": "assortment:milling",
+  "ingredient": { "item": "assortment:steel_ingot" },
+  "result": "assortment:steel_blend",
+  "count": 1
+}

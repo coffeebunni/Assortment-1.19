@@ -1,0 +1,6 @@
+{
+  "type": "assortment:milling",
+  "ingredient": { "item": "minecraft:raw_iron" },
+  "result": "assortment:iron_dust",
+  "count": 2
+}

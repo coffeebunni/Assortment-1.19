@@ -1,0 +1,6 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "assortment:item/rose_gold_hoe"
+  }
+}

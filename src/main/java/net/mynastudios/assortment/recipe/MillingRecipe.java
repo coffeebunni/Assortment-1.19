@@ -1,6 +1,5 @@
 package net.mynastudios.assortment.recipe;
 
-import net.minecraft.block.Blocks;
 import net.minecraft.item.ItemStack;
 import net.minecraft.recipe.*;
 import net.minecraft.util.Identifier;

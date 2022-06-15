@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "assortment:block/reinforced_oak_log_horizontal",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "assortment:block/reinforced_oak_log"
+    },
+    "axis=z": {
+      "model": "assortment:block/reinforced_oak_log_horizontal",
+      "x": 90
+    }
+  }
+}

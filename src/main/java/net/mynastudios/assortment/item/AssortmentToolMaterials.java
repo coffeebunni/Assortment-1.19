@@ -11,7 +11,8 @@ import net.mynastudios.assortment.registry.AssortmentItemInit;
 import java.util.function.Supplier;
 
 public enum AssortmentToolMaterials implements ToolMaterial {
-    STEEL(MiningLevels.IRON, 1000, 8.0f, 2.5f, 14, () -> Ingredient.ofItems(AssortmentItemInit.STEEL_INGOT));
+    STEEL(MiningLevels.IRON, 1000, 8.0f, 2.5f, 14, () -> Ingredient.ofItems(AssortmentItemInit.STEEL_INGOT)),
+    ROSE_GOLD(MiningLevels.IRON, 250, 12.0f, 2.0f, 22, () -> Ingredient.ofItems(AssortmentItemInit.STEEL_INGOT));
 
     private final int miningLevel;
     private final int itemDurability;

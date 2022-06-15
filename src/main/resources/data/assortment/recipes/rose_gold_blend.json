@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "assortment:gold_dust"
+    },
+    {
+      "item": "assortment:copper_dust"
+    }
+  ],
+  "result": {
+    "item": "assortment:rose_gold_blend"
+  }
+}

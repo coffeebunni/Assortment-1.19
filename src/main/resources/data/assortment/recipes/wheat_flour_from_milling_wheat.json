@@ -1,0 +1,6 @@
+{
+  "type": "assortment:milling",
+  "ingredient": { "item": "minecraft:wheat" },
+  "result": "assortment:wheat_flour",
+  "count": 2
+}

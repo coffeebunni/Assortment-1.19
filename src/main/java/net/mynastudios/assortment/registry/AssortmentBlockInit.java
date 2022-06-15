@@ -2,10 +2,7 @@ package net.mynastudios.assortment.registry;
 
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
-import net.minecraft.block.Block;
-import net.minecraft.block.Blocks;
-import net.minecraft.block.FallingBlock;
-import net.minecraft.block.Material;
+import net.minecraft.block.*;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroup;
@@ -26,11 +23,18 @@ public class AssortmentBlockInit {
     public static final Block STEEL_BLOCK = registerBlock("steel_block",
             new Block(FabricBlockSettings.of(Material.METAL)), AssortmentItemGroup.ASSORTMENT);
 
+    public static final Block ROSE_GOLD_BLOCK = registerBlock("rose_gold_block",
+            new Block(FabricBlockSettings.of(Material.METAL)), AssortmentItemGroup.ASSORTMENT);
+
     public static final Block KILN = registerBlock("kiln",
             new KilnBlock(FabricBlockSettings.copyOf(Blocks.FURNACE)), AssortmentItemGroup.ASSORTMENT);
 
     public static final Block MILL = registerBlock("mill",
             new MillBlock(FabricBlockSettings.copyOf(Blocks.FURNACE)), AssortmentItemGroup.ASSORTMENT);
+
+    public static final Block REINFORCED_OAK_LOG = registerBlock("reinforced_oak_log",
+            new PillarBlock(FabricBlockSettings.copyOf(Blocks.OAK_LOG)), AssortmentItemGroup.ASSORTMENT);
+
 
     private static Block registerBlock(String name, Block block, ItemGroup group) {
         registerBlockItem(name, block, group);

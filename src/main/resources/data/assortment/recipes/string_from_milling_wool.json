@@ -1,0 +1,6 @@
+{
+  "type": "assortment:milling",
+  "ingredient": { "tag": "minecraft:wool" },
+  "result": "minecraft:string",
+  "count": 4
+}
