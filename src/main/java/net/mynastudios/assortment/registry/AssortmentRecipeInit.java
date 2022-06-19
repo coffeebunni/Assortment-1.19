@@ -1,8 +1,6 @@
 package net.mynastudios.assortment.registry;
 
-import net.minecraft.recipe.CookingRecipeSerializer;
-import net.minecraft.recipe.RecipeSerializer;
-import net.minecraft.recipe.RecipeType;
+import net.minecraft.recipe.*;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;
 import net.mynastudios.assortment.Assortment;

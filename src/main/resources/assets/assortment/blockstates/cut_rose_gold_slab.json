@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "assortment:block/cut_rose_gold_slab"
+    },
+    "type=double": {
+      "model": "assortment:block/cut_rose_gold"
+    },
+    "type=top": {
+      "model": "assortment:block/cut_rose_gold_slab_top"
+    }
+  }
+}

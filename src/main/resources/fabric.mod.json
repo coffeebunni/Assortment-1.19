@@ -14,7 +14,7 @@
   },
 
   "license": "MIT",
-  "icon": "assets/modid/icon.png",
+  "icon": "assets/assortment/textures/item/steel_sword.png",
 
   "environment": "*",
   "entrypoints": {

@@ -1,0 +1,40 @@
+{
+  "display": {
+    "icon": {
+      "item": "assortment:amethyst_rod"
+    },
+    "title": "Tubular Lighting!",
+    "description": "Craft a amethyst rod",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "background": "assortment:textures/block/steel_block.png"
+  },
+  "parent": "assortment:assortment_root",
+  "criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [
+          {
+            "items": [
+              "assortment:amethyst_rod"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_item"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "assortment:amethyst_rod",
+      "assortment:glowing_rod",
+      "assortment:blazing_rod"
+    ]
+  }
+}

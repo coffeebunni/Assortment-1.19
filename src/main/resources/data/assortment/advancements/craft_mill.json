@@ -1,0 +1,51 @@
+{
+  "display": {
+    "icon": {
+      "item": "assortment:mill"
+    },
+    "title": "Simple Crushing!",
+    "description": "Craft a mill",
+    "background": "assortment:textures/block/steel_block.png",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false
+  },
+  "parent": "assortment:assortment_root",
+  "criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [
+          {
+            "items": [
+              "assortment:mill"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_item"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "assortment:coal_dust_from_milling_coal",
+      "assortment:copper_dust_from_milling_raw_copper",
+      "assortment:iron_dust_from_milling_raw_iron",
+      "assortment:gold_dust_from_milling_raw_gold",
+      "assortment:steel_blend_from_milling_steel_ingot",
+      "assortment:steel_blend",
+      "assortment:rose_gold_blend_from_milling_rose_gold_ingot",
+      "assortment:rose_gold_blend",
+      "assortment:string_from_milling_wool",
+      "assortment:wheat_flour_from_milling_wheat",
+      "assortment:nether_wart_from_milling_nether_wart_block",
+      "assortment:gravel_from_milling_cobblestone",
+      "assortment:sand_from_milling_gravel"
+    ]
+  }
+}

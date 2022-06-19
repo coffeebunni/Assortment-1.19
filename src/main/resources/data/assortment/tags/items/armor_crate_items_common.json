@@ -1,0 +1,17 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:iron_helmet",
+    "minecraft:iron_chestplate",
+    "minecraft:iron_leggings",
+    "minecraft:iron_boots",
+    "assortment:steel_helmet",
+    "assortment:steel_chestplate",
+    "assortment:steel_leggings",
+    "assortment:steel_boots",
+    "assortment:rose_gold_helmet",
+    "assortment:rose_gold_chestplate",
+    "assortment:rose_gold_leggings",
+    "assortment:rose_gold_boots"
+  ]
+}

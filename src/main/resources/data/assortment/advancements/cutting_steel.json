@@ -1,0 +1,43 @@
+{
+  "display": {
+    "icon": {
+      "item": "assortment:cut_steel"
+    },
+    "title": "Steel-worker!",
+    "description": "Cut steel in a stonecutter",
+    "background": "assortment:textures/block/steel_block.png",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false
+  },
+  "parent": "assortment:blasting_steel",
+  "criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "assortment:cut_steel"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_item"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "assortment:cut_steel",
+      "assortment:cut_steel_from_steel_block_stonecutting",
+      "assortment:cut_steel_slab_from_steel_block_stonecutting",
+      "assortment:cut_steel_slab_from_cut_steel_stonecutting",
+      "assortment:cut_steel_stairs_from_steel_block_stonecutting",
+      "assortment:cut_steel_stairs_from_cut_steel_stonecutting"
+    ]
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "assortment:cut_steel"
+  },
+  "result": "assortment:cut_steel_slab"
+}

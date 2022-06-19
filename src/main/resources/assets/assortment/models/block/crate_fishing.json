@@ -1,0 +1,9 @@
+{
+  "parent": "minecraft:block/orientable",
+  "textures": {
+    "front": "assortment:block/crate_fishing_front",
+    "side": "assortment:block/crate_fishing_side",
+    "top": "assortment:block/crate_fishing_top",
+    "bottom": "assortment:block/crate_fishing_bottom"
+  }
+}

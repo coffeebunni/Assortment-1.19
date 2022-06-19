@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:tropical_fish",
+    "minecraft:salmon",
+    "minecraft:cod",
+    "minecraft:ink_sac",
+    "minecraft:glow_ink_sac"
+  ]
+}

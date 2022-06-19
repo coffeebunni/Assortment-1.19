@@ -6,34 +6,107 @@ import net.minecraft.block.*;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroup;
+import net.minecraft.sound.BlockSoundGroup;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;
 import net.mynastudios.assortment.Assortment;
-import net.mynastudios.assortment.block.KilnBlock;
-import net.mynastudios.assortment.block.MillBlock;
+import net.mynastudios.assortment.block.*;
+import net.mynastudios.assortment.block.BaseTrapdoor;
 
+@SuppressWarnings("unused")
 public class AssortmentBlockInit {
 
     public static final Block COAL_SAND = registerBlock("coal_sand",
-            new FallingBlock(FabricBlockSettings.copyOf(Blocks.SAND)), AssortmentItemGroup.ASSORTMENT);
+            new FallingBlock(FabricBlockSettings.copyOf(Blocks.SAND)), AssortmentItemGroup.ASSORTMENT_METALS);
 
     public static final Block IRON_SAND = registerBlock("iron_sand",
-            new FallingBlock(FabricBlockSettings.copyOf(Blocks.SAND)), AssortmentItemGroup.ASSORTMENT);
+            new FallingBlock(FabricBlockSettings.copyOf(Blocks.SAND)), AssortmentItemGroup.ASSORTMENT_METALS);
 
     public static final Block STEEL_BLOCK = registerBlock("steel_block",
-            new Block(FabricBlockSettings.of(Material.METAL)), AssortmentItemGroup.ASSORTMENT);
+            new Block(FabricBlockSettings.of(Material.METAL).requiresTool()), AssortmentItemGroup.ASSORTMENT_METALS);
+
+    public static final Block CUT_STEEL = registerBlock("cut_steel",
+            new Block(FabricBlockSettings.of(Material.METAL).requiresTool()), AssortmentItemGroup.ASSORTMENT_METALS);
+
+    public static final Block CUT_STEEL_SLAB = registerBlock("cut_steel_slab",
+            new SlabBlock(FabricBlockSettings.of(Material.METAL).requiresTool()), AssortmentItemGroup.ASSORTMENT_METALS);
+
+    public static final Block CUT_STEEL_STAIRS = registerBlock("cut_steel_stairs",
+            new BaseStairs(AssortmentBlockInit.CUT_STEEL.getDefaultState(),
+                    FabricBlockSettings.of(Material.METAL).requiresTool()), AssortmentItemGroup.ASSORTMENT_METALS);
+
+    public static final Block STEEL_DOOR = registerBlock("steel_door",
+            new BaseDoor(FabricBlockSettings.copyOf(Blocks.IRON_DOOR).requiresTool()), AssortmentItemGroup.ASSORTMENT_METALS);
+
+    public static final Block STEEL_TRAPDOOR = registerBlock("steel_trapdoor",
+            new BaseTrapdoor(FabricBlockSettings.copyOf(Blocks.IRON_TRAPDOOR).requiresTool()), AssortmentItemGroup.ASSORTMENT_METALS);
 
     public static final Block ROSE_GOLD_BLOCK = registerBlock("rose_gold_block",
-            new Block(FabricBlockSettings.of(Material.METAL)), AssortmentItemGroup.ASSORTMENT);
+            new Block(FabricBlockSettings.copyOf(Blocks.GOLD_BLOCK).requiresTool()), AssortmentItemGroup.ASSORTMENT_METALS);
+
+    public static final Block CUT_ROSE_GOLD = registerBlock("cut_rose_gold",
+            new Block(FabricBlockSettings.copyOf(Blocks.GOLD_BLOCK).requiresTool()), AssortmentItemGroup.ASSORTMENT_METALS);
+
+    public static final Block CUT_ROSE_GOLD_SLAB = registerBlock("cut_rose_gold_slab",
+            new SlabBlock(FabricBlockSettings.copyOf(Blocks.GOLD_BLOCK).requiresTool()), AssortmentItemGroup.ASSORTMENT_METALS);
+
+    public static final Block CUT_ROSE_GOLD_STAIRS = registerBlock("cut_rose_gold_stairs",
+            new BaseStairs(AssortmentBlockInit.CUT_ROSE_GOLD.getDefaultState(),
+                    FabricBlockSettings.copyOf(Blocks.GOLD_BLOCK).requiresTool()), AssortmentItemGroup.ASSORTMENT_METALS);
+
+    public static final Block ROSE_GOLD_DOOR = registerBlock("rose_gold_door",
+            new BaseDoor(FabricBlockSettings.copyOf(Blocks.GOLD_BLOCK).nonOpaque().requiresTool()), AssortmentItemGroup.ASSORTMENT_METALS);
+
+    public static final Block ROSE_GOLD_TRAPDOOR = registerBlock("rose_gold_trapdoor",
+            new BaseTrapdoor(FabricBlockSettings.copyOf(Blocks.GOLD_BLOCK).nonOpaque().requiresTool()), AssortmentItemGroup.ASSORTMENT_METALS);
+
+    public static final Block GOLD_DOOR = registerBlock("gold_door",
+            new BaseDoor(FabricBlockSettings.copyOf(Blocks.GOLD_BLOCK).nonOpaque().requiresTool()), AssortmentItemGroup.ASSORTMENT_METALS);
+
+    public static final Block GOLD_TRAPDOOR = registerBlock("gold_trapdoor",
+            new BaseTrapdoor(FabricBlockSettings.copyOf(Blocks.GOLD_BLOCK).nonOpaque().requiresTool()), AssortmentItemGroup.ASSORTMENT_METALS);
+
 
     public static final Block KILN = registerBlock("kiln",
-            new KilnBlock(FabricBlockSettings.copyOf(Blocks.FURNACE)), AssortmentItemGroup.ASSORTMENT);
+            new KilnBlock(FabricBlockSettings.copyOf(Blocks.FURNACE)), AssortmentItemGroup.ASSORTMENT_MISC);
 
     public static final Block MILL = registerBlock("mill",
-            new MillBlock(FabricBlockSettings.copyOf(Blocks.FURNACE)), AssortmentItemGroup.ASSORTMENT);
+            new MillBlock(FabricBlockSettings.copyOf(Blocks.FURNACE)), AssortmentItemGroup.ASSORTMENT_MISC);
 
-    public static final Block REINFORCED_OAK_LOG = registerBlock("reinforced_oak_log",
-            new PillarBlock(FabricBlockSettings.copyOf(Blocks.OAK_LOG)), AssortmentItemGroup.ASSORTMENT);
+
+    public static final Block AMETHYST_ROD = registerBlock("amethyst_rod",
+            new BaseRodBlock(FabricBlockSettings.copyOf(Blocks.END_ROD)), AssortmentItemGroup.ASSORTMENT_MISC);
+
+    public static final Block GLOWING_ROD = registerBlock("glowing_rod",
+            new BaseRodBlock(FabricBlockSettings.copyOf(Blocks.END_ROD)), AssortmentItemGroup.ASSORTMENT_MISC);
+
+    public static final Block BLAZING_ROD = registerBlock("blazing_rod",
+            new BaseRodBlock(FabricBlockSettings.copyOf(Blocks.END_ROD)), AssortmentItemGroup.ASSORTMENT_MISC);
+
+
+    //public static final Block REINFORCED_OAK_LOG = registerBlock("reinforced_oak_log",
+    //        new PillarBlock(FabricBlockSettings.copyOf(Blocks.OAK_LOG)), AssortmentItemGroup.ASSORTMENT_MISC);
+
+
+    public static final Block REINFORCED_GLASS = registerBlock("reinforced_glass",
+            new GlassBlock(FabricBlockSettings.copyOf(Blocks.GLASS).strength(5.0f, 6.0f).sounds(BlockSoundGroup.GLASS).nonOpaque()), AssortmentItemGroup.ASSORTMENT_MISC);
+
+    public static final Block REINFORCED_GLASS_PANE = registerBlock("reinforced_glass_pane",
+            new PaneBlock(FabricBlockSettings.copyOf(Blocks.GLASS).strength(5.0f, 6.0f).sounds(BlockSoundGroup.GLASS).nonOpaque()), AssortmentItemGroup.ASSORTMENT_MISC);
+
+
+    public static final Block CRATE_MELEE = registerBlock("crate_melee",
+            new Block(FabricBlockSettings.copyOf(Blocks.BARREL)), AssortmentItemGroup.ASSORTMENT_MISC);
+
+    public static final Block CRATE_RANGED = registerBlock("crate_ranged",
+            new Block(FabricBlockSettings.copyOf(Blocks.BARREL)), AssortmentItemGroup.ASSORTMENT_MISC);
+
+    public static final Block CRATE_ARMOR = registerBlock("crate_armor",
+            new Block(FabricBlockSettings.copyOf(Blocks.BARREL)), AssortmentItemGroup.ASSORTMENT_MISC);
+
+    public static final Block CRATE_FISHING = registerBlock("crate_fishing",
+            new Block(FabricBlockSettings.copyOf(Blocks.BARREL)), AssortmentItemGroup.ASSORTMENT_MISC);
+
 
 
     private static Block registerBlock(String name, Block block, ItemGroup group) {

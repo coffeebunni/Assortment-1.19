@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/outer_stairs",
+  "textures": {
+    "bottom": "assortment:block/cut_rose_gold",
+    "side": "assortment:block/cut_rose_gold",
+    "top": "assortment:block/cut_rose_gold"
+  }
+}

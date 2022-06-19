@@ -7,7 +7,10 @@ import net.minecraft.util.Identifier;
 import net.mynastudios.assortment.Assortment;
 
 public class AssortmentItemGroup {
-    public static final ItemGroup ASSORTMENT = FabricItemGroupBuilder.build(new Identifier(Assortment.MODID, "assortment"),
+    public static final ItemGroup ASSORTMENT_METALS = FabricItemGroupBuilder.build(new Identifier(Assortment.MODID, "assortment_metals"),
             () -> new ItemStack(AssortmentItemInit.STEEL_INGOT));
+
+    public static final ItemGroup ASSORTMENT_MISC = FabricItemGroupBuilder.build(new Identifier(Assortment.MODID, "assortment_misc"),
+            () -> new ItemStack(AssortmentBlockInit.KILN));
 
 }

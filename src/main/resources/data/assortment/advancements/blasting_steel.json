@@ -1,0 +1,51 @@
+{
+  "display": {
+    "icon": {
+      "item": "assortment:steel_ingot"
+    },
+    "title": "Metallurgist!",
+    "description": "Blast steel ingot",
+    "background": "assortment:textures/block/steel_block.png",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false
+  },
+  "parent": "assortment:craft_mill",
+  "criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "assortment:steel_ingot"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_item"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "assortment:steel_block",
+      "assortment:steel_ingot_from_steel_block",
+      "assortment:steel_sword",
+      "assortment:steel_pickaxe",
+      "assortment:steel_shovel",
+      "assortment:steel_axe",
+      "assortment:steel_hoe",
+      "assortment:steel_helmet",
+      "assortment:steel_chestplate",
+      "assortment:steel_leggings",
+      "assortment:steel_boots",
+      "assortment:steel_horse_armor",
+      "assortment:steel_door",
+      "assortment:steel_trapdoor"
+    ]
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:iron_sword",
+    "minecraft:iron_axe",
+    "minecraft:iron_pickaxe",
+    "assortment:steel_sword",
+    "assortment:steel_axe",
+    "assortment:rose_gold_sword",
+    "assortment:rose_gold_axe"
+  ]
+}

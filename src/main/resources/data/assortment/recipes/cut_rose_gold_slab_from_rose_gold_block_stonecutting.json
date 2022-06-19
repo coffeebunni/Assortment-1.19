@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 8,
+  "ingredient": {
+    "item": "assortment:rose_gold_block"
+  },
+  "result": "assortment:cut_rose_gold_slab"
+}

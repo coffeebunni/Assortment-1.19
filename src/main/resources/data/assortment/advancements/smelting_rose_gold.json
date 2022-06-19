@@ -1,0 +1,51 @@
+{
+  "display": {
+    "icon": {
+      "item": "assortment:rose_gold_ingot"
+    },
+    "title": "Luscious Rose!",
+    "description": "Smelt rose gold ingot",
+    "background": "assortment:textures/block/steel_block.png",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false
+  },
+  "parent": "assortment:craft_mill",
+  "criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "assortment:rose_gold_ingot"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_item"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "assortment:rose_gold_block",
+      "assortment:rose_gold_ingot_from_rose_gold_block",
+      "assortment:rose_gold_sword",
+      "assortment:rose_gold_pickaxe",
+      "assortment:rose_gold_shovel",
+      "assortment:rose_gold_axe",
+      "assortment:rose_gold_hoe",
+      "assortment:rose_gold_helmet",
+      "assortment:rose_gold_chestplate",
+      "assortment:rose_gold_leggings",
+      "assortment:rose_gold_boots",
+      "assortment:rose_gold_horse_armor",
+      "assortment:rose_gold_door",
+      "assortment:rose_gold_trapdoor"
+    ]
+  }
+}

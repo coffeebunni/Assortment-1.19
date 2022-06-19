@@ -1,0 +1,44 @@
+{
+  "display": {
+    "icon": {
+      "item": "assortment:kiln"
+    },
+    "title": "Clay Firing!",
+    "description": "Craft a kiln out of bricks",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "background": "assortment:textures/block/steel_block.png"
+  },
+  "parent": "assortment:assortment_root",
+  "criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [
+          {
+            "items": [
+              "assortment:kiln"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_item"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "assortment:brick_from_firing_clay_ball",
+      "assortment:terracotta_from_firing_clay_block",
+      "assortment:flower_pot_from_firing_unfired_pot",
+      "assortment:unfired_pot",
+      "assortment:glass_from_firing_sand",
+      "assortment:tinted_glass_from_firing_coal_sand",
+      "assortment:bread_from_firing_wheat_flour"
+    ]
+  }
+}

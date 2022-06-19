@@ -1,0 +1,21 @@
+{
+  "variants": {
+    "": [
+      {
+        "model": "assortment:block/crate_armor"
+      },
+      {
+        "model": "assortment:block/crate_armor",
+        "y": 90
+      },
+      {
+        "model": "assortment:block/crate_armor",
+        "y": 180
+      },
+      {
+        "model": "assortment:block/crate_armor",
+        "y": 270
+      }
+    ]
+  }
+}

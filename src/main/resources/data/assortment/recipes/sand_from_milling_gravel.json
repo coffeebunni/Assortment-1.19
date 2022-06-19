@@ -1,0 +1,6 @@
+{
+  "type": "assortment:milling",
+  "ingredient": { "item": "minecraft:gravel" },
+  "result": "minecraft:sand",
+  "count": 1
+}

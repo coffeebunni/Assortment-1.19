@@ -14,6 +14,11 @@
 
   "item.assortment.steel_ingot": "Steel Ingot",
   "block.assortment.steel_block": "Steel Block",
+  "block.assortment.steel_door": "Steel Door",
+  "block.assortment.steel_trapdoor": "Steel Trapdoor",
+  "block.assortment.cut_steel": "Cut Steel",
+  "block.assortment.cut_steel_slab": "Cut Steel Slab",
+  "block.assortment.cut_steel_stairs": "Cut Steel Stairs",
 
   "item.assortment.steel_sword": "Steel Sword",
   "item.assortment.steel_axe": "Steel Axe",
@@ -28,12 +33,20 @@
 
   "item.assortment.rose_gold_ingot": "Rose Gold Ingot",
   "block.assortment.rose_gold_block": "Rose Gold Block",
+  "block.assortment.rose_gold_door": "Rose Gold Door",
+  "block.assortment.rose_gold_trapdoor": "Rose Gold Trapdoor",
+  "block.assortment.cut_rose_gold": "Cut Rose Gold",
+  "block.assortment.cut_rose_gold_slab": "Cut Rose Gold Slab",
+  "block.assortment.cut_rose_gold_stairs": "Cut Rose Gold Stairs",
 
   "item.assortment.rose_gold_sword": "Rose Gold Sword",
   "item.assortment.rose_gold_axe": "Rose Gold Axe",
   "item.assortment.rose_gold_shovel": "Rose Gold Shovel",
   "item.assortment.rose_gold_pickaxe": "Rose Gold Pickaxe",
   "item.assortment.rose_gold_hoe": "Rose Gold Hoe",
+
+  "block.assortment.gold_door": "Gold Door",
+  "block.assortment.gold_trapdoor": "Gold Trapdoor",
 
   "item.assortment.rose_gold_helmet": "Rose Gold Helmet",
   "item.assortment.rose_gold_chestplate": "Rose Gold Chestplate",
@@ -58,5 +71,19 @@
 
   "block.assortment.reinforced_oak_log": "Reinforced Oak Log",
 
-  "itemGroup.assortment.assortment": "Assortment"
+  "block.assortment.reinforced_glass": "Reinforced Glass",
+  "block.assortment.reinforced_glass_pane": "Reinforced Glass Pane",
+
+  "block.assortment.amethyst_rod": "Amethyst Rod",
+  "block.assortment.glowing_rod": "Glowing Rod",
+  "block.assortment.blazing_rod": "Blazing Rod",
+
+  "block.assortment.crate_melee": "Melee Crate",
+  "block.assortment.crate_ranged": "Ranged Crate",
+  "block.assortment.crate_armor": "Armor Crate",
+  "block.assortment.crate_fishing": "Fishing Crate",
+
+
+  "itemGroup.assortment.assortment_metals": "Assortment Metals",
+  "itemGroup.assortment.assortment_misc": "Assortment Misc"
 }

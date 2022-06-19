@@ -1,0 +1,43 @@
+{
+  "display": {
+    "icon": {
+      "item": "assortment:cut_rose_gold"
+    },
+    "title": "Fancy metalwork!",
+    "description": "Cut rose gold in a stonecutter",
+    "background": "assortment:textures/block/steel_block.png",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false
+  },
+  "parent": "assortment:smelting_rose_gold",
+  "criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "assortment:cut_rose_gold"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_item"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "assortment:cut_rose_gold",
+      "assortment:cut_rose_gold_from_rose_gold_block_stonecutting",
+      "assortment:cut_rose_gold_slab_from_rose_gold_block_stonecutting",
+      "assortment:cut_rose_gold_slab_from_cut_rose_gold_stonecutting",
+      "assortment:cut_rose_gold_stairs_from_rose_gold_block_stonecutting",
+      "assortment:cut_rose_gold_stairs_from_cut_rose_gold_stonecutting"
+    ]
+  }
+}

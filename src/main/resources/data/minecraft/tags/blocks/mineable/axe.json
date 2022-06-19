@@ -1,5 +1,9 @@
 {
   "replace": false,
   "values": [
+    "assortment:crate_melee",
+    "assortment:crate_ranged",
+    "assortment:crate_armor",
+    "assortment:crate_fishing"
   ]
 }

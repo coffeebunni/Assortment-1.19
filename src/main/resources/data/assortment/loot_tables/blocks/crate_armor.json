@@ -1,0 +1,38 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:tag",
+          "weight": 10,
+          "name": "assortment:armor_crate_items_common",
+          "expand": true
+        },
+        {
+          "type": "minecraft:tag",
+          "weight": 1,
+          "name": "assortment:armor_crate_items_rare",
+          "expand": true
+        }
+      ],
+      "functions": [
+        {
+          "function": "minecraft:enchant_with_levels",
+          "levels": {
+            "min": 0,
+            "max": 20
+          },
+          "treasure": false,
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.5
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

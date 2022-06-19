@@ -1,0 +1,21 @@
+{
+  "variants": {
+    "": [
+      {
+        "model": "assortment:block/crate_ranged"
+      },
+      {
+        "model": "assortment:block/crate_ranged",
+        "y": 90
+      },
+      {
+        "model": "assortment:block/crate_ranged",
+        "y": 180
+      },
+      {
+        "model": "assortment:block/crate_ranged",
+        "y": 270
+      }
+    ]
+  }
+}

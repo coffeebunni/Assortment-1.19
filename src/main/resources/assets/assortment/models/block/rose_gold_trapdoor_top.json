@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/template_trapdoor_top",
+  "textures": {
+    "texture": "assortment:block/rose_gold_trapdoor"
+  }
+}

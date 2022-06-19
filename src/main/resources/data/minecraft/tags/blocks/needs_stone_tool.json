@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
-    "assortment:kiln"
+    "assortment:kiln",
+    "assortment:mill"
   ]
 }

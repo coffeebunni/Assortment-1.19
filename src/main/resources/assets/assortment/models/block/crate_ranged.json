@@ -1,0 +1,9 @@
+{
+  "parent": "minecraft:block/orientable",
+  "textures": {
+    "front": "assortment:block/crate_ranged_front",
+    "side": "assortment:block/crate_ranged_side",
+    "top": "assortment:block/crate_ranged_top",
+    "bottom": "assortment:block/crate_ranged_bottom"
+  }
+}

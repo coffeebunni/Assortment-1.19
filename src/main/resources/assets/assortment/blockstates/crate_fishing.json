@@ -1,0 +1,21 @@
+{
+  "variants": {
+    "": [
+      {
+        "model": "assortment:block/crate_fishing"
+      },
+      {
+        "model": "assortment:block/crate_fishing",
+        "y": 90
+      },
+      {
+        "model": "assortment:block/crate_fishing",
+        "y": 180
+      },
+      {
+        "model": "assortment:block/crate_fishing",
+        "y": 270
+      }
+    ]
+  }
+}

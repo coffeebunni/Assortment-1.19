@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:tag",
+          "weight": 10,
+          "name": "assortment:fishing_crate_items_common",
+          "expand": true
+        },
+        {
+          "type": "minecraft:tag",
+          "weight": 1,
+          "name": "assortment:fishing_crate_items_rare",
+          "expand": true
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "X": {
+      "item": "minecraft:smooth_stone"
+    },
+    "#": {
+      "item": "minecraft:stone"
+    },
+    "I": {
+      "item": "minecraft:iron_block"
+    }
+  },
+  "pattern": [
+    "XXX",
+    "#I#",
+    "###"
+  ],
+  "result": {
+    "item": "assortment:mill"
+  }
+}

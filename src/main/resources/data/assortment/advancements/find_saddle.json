@@ -1,0 +1,42 @@
+{
+  "display": {
+    "icon": {
+      "item": "assortment:netherite_horse_armor"
+    },
+    "title": "Equestrianism",
+    "description": "Rediscover horse-related recipes",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "background": "assortment:textures/block/steel_block.png"
+  },
+  "parent": "assortment:assortment_root",
+  "criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [
+          {
+            "items": [
+              "minecraft:saddle"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_item"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "assortment:saddle",
+      "assortment:iron_horse_armor",
+      "assortment:gold_horse_armor",
+      "assortment:diamond_horse_armor",
+      "assortment:netherite_horse_armor"
+    ]
+  }
+}
