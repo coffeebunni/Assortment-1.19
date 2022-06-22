@@ -1,10 +1,10 @@
 {
   "type": "minecraft:jigsaw",
-  "biomes": "#assortment:has_structure/ritual_stones_biomes",
+  "biomes": "#assortment:has_structure/standing_stones_biomes",
   "step": "surface_structures",
   "spawn_overrides": {},
   "terrain_adaptation": "beard_thin",
-  "start_pool": "assortment:ritual_stones/start_pool",
+  "start_pool": "assortment:standing_stones/start_pool",
   "size": 6,
   "start_height": {
     "type": "minecraft:constant",

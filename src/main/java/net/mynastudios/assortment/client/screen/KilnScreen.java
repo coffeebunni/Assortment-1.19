@@ -11,7 +11,6 @@ import net.mynastudios.assortment.block.screen.KilnScreenHandler;
 
 @Environment(EnvType.CLIENT)
 public class KilnScreen extends AbstractFurnaceScreen<KilnScreenHandler> {
-    //You can replace the background with whatever you like, just remember there will always be the recipe book button
     private static final Identifier BACKGROUND = new Identifier("textures/gui/container/furnace.png");
 
     public KilnScreen(KilnScreenHandler handler, PlayerInventory inventory, Text title) {

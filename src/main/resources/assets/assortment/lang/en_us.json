@@ -63,10 +63,12 @@
 
   "block.assortment.kiln": "Kiln",
   "container.assortment.kiln": "Kiln",
+  "gui.recipebook.toggleRecipes.firable": "Showing Firable",
   "stat.assortment.interact_with_kiln": "Interactions with Kiln",
 
   "block.assortment.mill": "Mill",
   "container.assortment.mill": "Mill",
+  "gui.recipebook.toggleRecipes.millable": "Showing Millable",
   "stat.assortment.interact_with_mill": "Interactions with Mill",
 
   "block.assortment.reinforced_oak_log": "Reinforced Oak Log",
