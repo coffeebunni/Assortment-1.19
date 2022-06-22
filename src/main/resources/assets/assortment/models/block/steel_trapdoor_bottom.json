@@ -1,6 +1,8 @@
 {
-  "parent": "minecraft:block/template_trapdoor_bottom",
+  "parent": "assortment:block/base_trapdoor_bottom",
   "textures": {
-    "texture": "assortment:block/steel_trapdoor"
+    "faces": "assortment:block/steel_trapdoor",
+    "sides": "assortment:block/steel_trapdoor_side",
+    "particle": "assortment:block/steel_trapdoor"
   }
 }

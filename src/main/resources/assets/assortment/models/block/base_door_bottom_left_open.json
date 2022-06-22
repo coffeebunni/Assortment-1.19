@@ -1,0 +1,22 @@
+{
+	"credit": "Made with Blockbench",
+	"ambientocclusion": false,
+	"textures": {
+		"faces": "assortment:block/rose_gold_door_bottom",
+		"sides": "assortment:block/rose_gold_door_bottom_sides",
+		"particle": "assortment:block/rose_gold_door_bottom"
+	},
+	"elements": [
+		{
+			"from": [0, 0, 0],
+			"to": [3, 16, 16],
+			"faces": {
+				"north": {"uv": [6, 0, 9, 16], "texture": "#sides", "cullface": "north"},
+				"east": {"uv": [0, 0, 16, 16], "texture": "#faces"},
+				"south": {"uv": [0, 0, 3, 16], "texture": "#sides", "cullface": "south"},
+				"west": {"uv": [16, 0, 0, 16], "texture": "#faces", "cullface": "west"},
+				"down": {"uv": [6, 0, 3, 16], "texture": "#sides", "cullface": "down"}
+			}
+		}
+	]
+}

@@ -108,7 +108,6 @@ public class AssortmentBlockInit {
             new Block(FabricBlockSettings.copyOf(Blocks.BARREL)), AssortmentItemGroup.ASSORTMENT_MISC);
 
 
-
     private static Block registerBlock(String name, Block block, ItemGroup group) {
         registerBlockItem(name, block, group);
         return Registry.register(Registry.BLOCK, new Identifier(Assortment.MODID, name), block);

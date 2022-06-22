@@ -1,0 +1,24 @@
+{
+  "name": "assortment:muddy_well/start_pool",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "assortment:muddy_well_1",
+        "processors": "assortment:randomize_crate"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "assortment:muddy_well_2",
+        "processors": "assortment:randomize_crate"
+      }
+    }
+  ]
+}
