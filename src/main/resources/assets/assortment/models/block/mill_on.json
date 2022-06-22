@@ -1,7 +1,7 @@
 {
   "parent": "minecraft:block/orientable",
   "textures": {
-    "front": "assortment:block/mill_front",
+    "front": "assortment:block/mill_front_on",
     "side": "assortment:block/mill_side",
     "top": "assortment:block/mill_top",
     "bottom": "assortment:block/mill_bottom"
