@@ -107,6 +107,9 @@ public class AssortmentBlockInit {
     public static final Block CRATE_FISHING = registerBlock("crate_fishing",
             new Block(FabricBlockSettings.copyOf(Blocks.BARREL)), AssortmentItemGroup.ASSORTMENT_MISC);
 
+    //public static final Block APPLE_CRATE = registerBlock("apple_crate",
+    //        new BaseFacingBlock(FabricBlockSettings.of(Material.WOOD)), AssortmentItemGroup.ASSORTMENT_MISC);
+
 
     private static Block registerBlock(String name, Block block, ItemGroup group) {
         registerBlockItem(name, block, group);
