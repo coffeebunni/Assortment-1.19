@@ -1,0 +1,30 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_red_mushroom": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:red_mushroom"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_red_mushroom"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "assortment:crate_red_mushroom",
+      "assortment:crate_red_mushroom_reversal",
+      "assortment:sack_red_mushroom",
+      "assortment:sack_red_mushroom_reversal"
+    ]
+  }
+}

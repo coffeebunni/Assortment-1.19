@@ -93,6 +93,7 @@
   "block.assortment.crate_golden_carrot": "Golden Carrot Crate",
   "block.assortment.crate_potato": "Potato Crate",
   "block.assortment.crate_beetroot": "Beetroot Crate",
+  "block.assortment.crate_red_mushroom": "Red Mushroom Crate",
   "block.assortment.crate_sugar": "Sugar Crate",
   "block.assortment.crate_flesh": "Flesh Crate",
 
@@ -102,6 +103,7 @@
   "block.assortment.sack_golden_carrot": "Golden Carrot Sack",
   "block.assortment.sack_potato": "Potato Sack",
   "block.assortment.sack_beetroot": "Beetroot Sack",
+  "block.assortment.sack_red_mushroom": "Red Mushroom Sack",
   "block.assortment.sack_sugar": "Sugar Sack",
   "block.assortment.sack_flesh": "Flesh Sack",
 
