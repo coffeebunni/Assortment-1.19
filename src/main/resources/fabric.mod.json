@@ -14,7 +14,7 @@
   },
 
   "license": "MIT",
-  "icon": "assets/assortment/textures/item/steel_sword.png",
+  "icon": "assets/assortment/textures/item/rose_gold_ingot.png",
 
   "environment": "*",
   "entrypoints": {

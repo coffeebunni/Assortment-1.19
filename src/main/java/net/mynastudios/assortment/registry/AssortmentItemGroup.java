@@ -13,4 +13,7 @@ public class AssortmentItemGroup {
     public static final ItemGroup ASSORTMENT_MISC = FabricItemGroupBuilder.build(new Identifier(Assortment.MODID, "assortment_misc"),
             () -> new ItemStack(AssortmentBlockInit.KILN));
 
+    public static final ItemGroup ASSORTMENT_COMPRESSIBLES = FabricItemGroupBuilder.build(new Identifier(Assortment.MODID, "assortment_compressibles"),
+            () -> new ItemStack(AssortmentBlockInit.CRATE_APPLE));
+
 }

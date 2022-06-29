@@ -1,0 +1,30 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_golden_carrot": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:golden_carrot"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_golden_carrot"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "assortment:crate_golden_carrot",
+      "assortment:crate_golden_carrot_reversal",
+      "assortment:sack_golden_carrot",
+      "assortment:sack_golden_carrot_reversal"
+    ]
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_carrot": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:carrot"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_carrot"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "assortment:crate_carrot",
+      "assortment:crate_carrot_reversal",
+      "assortment:sack_carrot",
+      "assortment:sack_carrot_reversal"
+    ]
+  }
+}

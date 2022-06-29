@@ -1,0 +1,10 @@
+{
+	"parent": "minecraft:block/orientable_with_bottom",
+	"textures": {
+		"bottom": "assortment:block/crate_bottom",
+		"front": "assortment:block/crate_side_closed",
+		"side": "assortment:block/crate_side_closed",
+		"top": "assortment:block/crate_top_sugar",
+		"particle": "assortment:block/crate_top_sugar"
+	}
+}

@@ -1,0 +1,27 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_thatchable": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "tag": [
+              "assortment:thatchable"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_thatchable"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "assortment:thatch_block"
+    ]
+  }
+}

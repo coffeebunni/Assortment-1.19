@@ -1,0 +1,30 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_apple": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:apple"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_apple"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "assortment:crate_apple",
+      "assortment:crate_apple_reversal",
+      "assortment:sack_apple",
+      "assortment:sack_apple_reversal"
+    ]
+  }
+}

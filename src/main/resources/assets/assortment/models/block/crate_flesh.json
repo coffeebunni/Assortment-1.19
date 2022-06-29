@@ -1,0 +1,12 @@
+{
+	"parent": "minecraft:block/cube",
+	"textures": {
+		"down": "assortment:block/crate_bottom",
+		"north": "assortment:block/crate_side_flesh",
+		"south": "assortment:block/crate_side_flesh",
+		"east": "assortment:block/crate_front_flesh",
+		"west": "assortment:block/crate_front_flesh",
+		"up": "assortment:block/crate_top_flesh",
+		"particle": "assortment:block/crate_top_flesh"
+	}
+}

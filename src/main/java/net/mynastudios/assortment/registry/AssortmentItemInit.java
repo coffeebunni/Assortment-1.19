@@ -39,35 +39,35 @@ public class AssortmentItemInit {
             new Item(new FabricItemSettings().group(AssortmentItemGroup.ASSORTMENT_METALS)));
 
     public static final Item STEEL_SWORD = registerItem("steel_sword",
-            new SwordItem(AssortmentToolMaterials.STEEL, 1, 2f,
+            new SwordItem(AssortmentToolMaterials.STEEL, 3, -2f,
                     new FabricItemSettings().group(AssortmentItemGroup.ASSORTMENT_METALS)));
     public static final Item STEEL_AXE = registerItem("steel_axe",
-            new BaseAxeItem(AssortmentToolMaterials.STEEL, 3, 0f,
+            new BaseAxeItem(AssortmentToolMaterials.STEEL, 6, -3f,
                     new FabricItemSettings().group(AssortmentItemGroup.ASSORTMENT_METALS)));
     public static final Item STEEL_SHOVEL = registerItem("steel_shovel",
-            new ShovelItem(AssortmentToolMaterials.STEEL, 0, 0f,
+            new ShovelItem(AssortmentToolMaterials.STEEL, 2, -3f,
                     new FabricItemSettings().group(AssortmentItemGroup.ASSORTMENT_METALS)));
     public static final Item STEEL_PICKAXE = registerItem("steel_pickaxe",
-            new BasePickaxeItem(AssortmentToolMaterials.STEEL, 0, 0f,
+            new BasePickaxeItem(AssortmentToolMaterials.STEEL, 1, -2.8f,
                     new FabricItemSettings().group(AssortmentItemGroup.ASSORTMENT_METALS)));
     public static final Item STEEL_HOE = registerItem("steel_hoe",
-            new BaseHoeItem(AssortmentToolMaterials.STEEL, 0, 0f,
+            new BaseHoeItem(AssortmentToolMaterials.STEEL, -3, -1f,
                     new FabricItemSettings().group(AssortmentItemGroup.ASSORTMENT_METALS)));
 
     public static final Item ROSE_GOLD_SWORD = registerItem("rose_gold_sword",
-            new SwordItem(AssortmentToolMaterials.ROSE_GOLD, 0, 0f,
+            new SwordItem(AssortmentToolMaterials.ROSE_GOLD, 2, -2f,
                     new FabricItemSettings().group(AssortmentItemGroup.ASSORTMENT_METALS)));
     public static final Item ROSE_GOLD_AXE = registerItem("rose_gold_axe",
-            new BaseAxeItem(AssortmentToolMaterials.ROSE_GOLD, 0, 0f,
+            new BaseAxeItem(AssortmentToolMaterials.ROSE_GOLD, 6, -3f,
                     new FabricItemSettings().group(AssortmentItemGroup.ASSORTMENT_METALS)));
     public static final Item ROSE_GOLD_SHOVEL = registerItem("rose_gold_shovel",
-            new ShovelItem(AssortmentToolMaterials.ROSE_GOLD, 0, 0f,
+            new ShovelItem(AssortmentToolMaterials.ROSE_GOLD, 1, -2f,
                     new FabricItemSettings().group(AssortmentItemGroup.ASSORTMENT_METALS)));
     public static final Item ROSE_GOLD_PICKAXE = registerItem("rose_gold_pickaxe",
-            new BasePickaxeItem(AssortmentToolMaterials.ROSE_GOLD, 0, 0f,
+            new BasePickaxeItem(AssortmentToolMaterials.ROSE_GOLD, 1, -2.8f,
                     new FabricItemSettings().group(AssortmentItemGroup.ASSORTMENT_METALS)));
     public static final Item ROSE_GOLD_HOE = registerItem("rose_gold_hoe",
-            new BaseHoeItem(AssortmentToolMaterials.ROSE_GOLD, 0, 0f,
+            new BaseHoeItem(AssortmentToolMaterials.ROSE_GOLD, -3, 0f,
                     new FabricItemSettings().group(AssortmentItemGroup.ASSORTMENT_METALS)));
 
     public static final Item STEEL_HELMET = registerItem("steel_helmet",

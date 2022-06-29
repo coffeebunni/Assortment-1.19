@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "assortment:crate_golden_apple"
+    }
+  ],
+  "result": {
+    "count": 8,
+    "item": "minecraft:golden_apple"
+  }
+}
