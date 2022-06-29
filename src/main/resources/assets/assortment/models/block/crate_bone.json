@@ -1,0 +1,10 @@
+{
+	"parent": "minecraft:block/orientable_with_bottom",
+	"textures": {
+		"bottom": "assortment:block/crate_bottom",
+		"front": "assortment:block/crate_side_bone",
+		"side": "assortment:block/crate_side_bone",
+		"top": "assortment:block/crate_top_bone",
+		"particle": "assortment:block/crate_top_bone"
+	}
+}

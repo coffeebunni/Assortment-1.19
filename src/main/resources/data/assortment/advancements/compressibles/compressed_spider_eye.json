@@ -1,0 +1,30 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_spider_eye": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:spider_eye"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_spider_eye"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "assortment:crate_spider_eye",
+      "assortment:crate_spider_eye_reversal",
+      "assortment:sack_spider_eye",
+      "assortment:sack_spider_eye_reversal"
+    ]
+  }
+}

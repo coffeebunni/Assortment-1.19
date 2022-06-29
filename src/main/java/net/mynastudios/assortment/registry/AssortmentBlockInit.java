@@ -132,6 +132,15 @@ public class AssortmentBlockInit {
     public static final Block CRATE_FLESH = registerBlock("crate_flesh",
             new BaseFacingBlock(FabricBlockSettings.copyOf(Blocks.BARREL)), AssortmentItemGroup.ASSORTMENT_COMPRESSIBLES);
 
+    public static final Block CRATE_BONE = registerBlock("crate_bone",
+            new BaseFacingBlock(FabricBlockSettings.copyOf(Blocks.BARREL)), AssortmentItemGroup.ASSORTMENT_COMPRESSIBLES);
+
+    public static final Block CRATE_SPIDER_EYE = registerBlock("crate_spider_eye",
+            new BaseFacingBlock(FabricBlockSettings.copyOf(Blocks.BARREL)), AssortmentItemGroup.ASSORTMENT_COMPRESSIBLES);
+
+    public static final Block CRATE_SUGAR_CANE = registerBlock("crate_sugar_cane",
+            new BaseFacingBlock(FabricBlockSettings.copyOf(Blocks.BARREL)), AssortmentItemGroup.ASSORTMENT_COMPRESSIBLES);
+
 
     public static final Block SACK_APPLE = registerBlock("sack_apple",
             new BaseFacingBlock(FabricBlockSettings.copyOf(Blocks.WHITE_WOOL)), AssortmentItemGroup.ASSORTMENT_COMPRESSIBLES);
@@ -152,6 +161,15 @@ public class AssortmentBlockInit {
             new BaseFacingBlock(FabricBlockSettings.copyOf(Blocks.WHITE_WOOL)), AssortmentItemGroup.ASSORTMENT_COMPRESSIBLES);
 
     public static final Block SACK_FLESH = registerBlock("sack_flesh",
+            new BaseFacingBlock(FabricBlockSettings.copyOf(Blocks.WHITE_WOOL)), AssortmentItemGroup.ASSORTMENT_COMPRESSIBLES);
+
+    public static final Block SACK_BONE = registerBlock("sack_bone",
+            new BaseFacingBlock(FabricBlockSettings.copyOf(Blocks.WHITE_WOOL)), AssortmentItemGroup.ASSORTMENT_COMPRESSIBLES);
+
+    public static final Block SACK_SPIDER_EYE = registerBlock("sack_spider_eye",
+            new BaseFacingBlock(FabricBlockSettings.copyOf(Blocks.WHITE_WOOL)), AssortmentItemGroup.ASSORTMENT_COMPRESSIBLES);
+
+    public static final Block SACK_SUGAR_CANE = registerBlock("sack_sugar_cane",
             new BaseFacingBlock(FabricBlockSettings.copyOf(Blocks.WHITE_WOOL)), AssortmentItemGroup.ASSORTMENT_COMPRESSIBLES);
 
 

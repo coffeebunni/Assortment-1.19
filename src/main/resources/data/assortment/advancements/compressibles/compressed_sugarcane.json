@@ -1,0 +1,30 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_sugar_cane": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:sugar_cane"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_sugar_cane"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "assortment:crate_sugar_cane",
+      "assortment:crate_sugar_cane_reversal",
+      "assortment:sack_sugar_cane",
+      "assortment:sack_sugar_cane_reversal"
+    ]
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_bone": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:bone"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_bone"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "assortment:crate_bone",
+      "assortment:crate_bone_reversal",
+      "assortment:sack_bone",
+      "assortment:sack_bone_reversal"
+    ]
+  }
+}
