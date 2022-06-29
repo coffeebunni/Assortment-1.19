@@ -123,6 +123,9 @@ public class AssortmentBlockInit {
     public static final Block CRATE_GOLDEN_CARROT = registerBlock("crate_golden_carrot",
             new BaseFacingBlock(FabricBlockSettings.copyOf(Blocks.BARREL)), AssortmentItemGroup.ASSORTMENT_COMPRESSIBLES);
 
+    public static final Block CRATE_POTATO = registerBlock("crate_potato",
+            new BaseFacingBlock(FabricBlockSettings.copyOf(Blocks.BARREL)), AssortmentItemGroup.ASSORTMENT_COMPRESSIBLES);
+
     public static final Block CRATE_BEETROOT = registerBlock("crate_beetroot",
             new BaseFacingBlock(FabricBlockSettings.copyOf(Blocks.BARREL)), AssortmentItemGroup.ASSORTMENT_COMPRESSIBLES);
 
@@ -143,6 +146,9 @@ public class AssortmentBlockInit {
             new BaseFacingBlock(FabricBlockSettings.copyOf(Blocks.WHITE_WOOL)), AssortmentItemGroup.ASSORTMENT_COMPRESSIBLES);
 
     public static final Block SACK_GOLDEN_CARROT = registerBlock("sack_golden_carrot",
+            new BaseFacingBlock(FabricBlockSettings.copyOf(Blocks.WHITE_WOOL)), AssortmentItemGroup.ASSORTMENT_COMPRESSIBLES);
+
+    public static final Block SACK_POTATO = registerBlock("sack_potato",
             new BaseFacingBlock(FabricBlockSettings.copyOf(Blocks.WHITE_WOOL)), AssortmentItemGroup.ASSORTMENT_COMPRESSIBLES);
 
     public static final Block SACK_BEETROOT = registerBlock("sack_beetroot",

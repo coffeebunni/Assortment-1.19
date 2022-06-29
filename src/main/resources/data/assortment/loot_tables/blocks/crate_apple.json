@@ -11,7 +11,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "assortment:compressed_golden_apple"
+          "name": "assortment:crate_apple"
         }
       ],
       "rolls": 1.0

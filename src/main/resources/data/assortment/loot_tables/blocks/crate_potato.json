@@ -11,7 +11,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "assortment:compressed_carrot"
+          "name": "assortment:crate_potato"
         }
       ],
       "rolls": 1.0
