@@ -1,0 +1,30 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_bamboo": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:bamboo"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_bamboo"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "assortment:crate_bamboo",
+      "assortment:crate_bamboo_reversal",
+      "assortment:sack_bamboo",
+      "assortment:sack_bamboo_reversal"
+    ]
+  }
+}

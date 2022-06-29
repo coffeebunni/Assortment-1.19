@@ -1,0 +1,30 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_beetroot_seeds": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:beetroot_seeds"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_beetroot_seeds"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "assortment:crate_beetroot_seeds",
+      "assortment:crate_beetroot_seeds_reversal",
+      "assortment:sack_beetroot_seeds",
+      "assortment:sack_beetroot_seeds_reversal"
+    ]
+  }
+}

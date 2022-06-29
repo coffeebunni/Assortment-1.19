@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "assortment:block/sack_beetroot_seeds"
+    },
+    "facing=east": {
+      "model": "assortment:block/sack_beetroot_seeds",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "assortment:block/sack_beetroot_seeds",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "assortment:block/sack_beetroot_seeds",
+      "y": 270
+    }
+  }
+}

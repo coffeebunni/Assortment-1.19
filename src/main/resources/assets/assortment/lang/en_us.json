@@ -99,6 +99,8 @@
   "block.assortment.crate_bone": "Bone Crate",
   "block.assortment.crate_spider_eye": "Spider Eye Crate",
   "block.assortment.crate_sugar_cane": "Sugarcane Crate",
+  "block.assortment.crate_beetroot_seeds": "Beetroot Seed Crate",
+  "block.assortment.crate_bamboo": "Bamboo Crate",
 
   "block.assortment.sack_apple": "Apple Sack",
   "block.assortment.sack_golden_apple": "Golden Apple Sack",
@@ -112,6 +114,10 @@
   "block.assortment.sack_bone": "Bone Sack",
   "block.assortment.sack_spider_eye": "Spider Eye Sack",
   "block.assortment.sack_sugar_cane": "Sugarcane Sack",
+  "block.assortment.sack_beetroot_seeds": "Beetroot Seed Sack",
+  "block.assortment.sack_bamboo": "Bamboo Sack",
+
+
 
 
 
