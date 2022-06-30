@@ -93,14 +93,18 @@
   "block.assortment.crate_golden_carrot": "Golden Carrot Crate",
   "block.assortment.crate_potato": "Potato Crate",
   "block.assortment.crate_beetroot": "Beetroot Crate",
-  "block.assortment.crate_red_mushroom": "Red Mushroom Crate",
+  "block.assortment.crate_beetroot_seeds": "Beetroot Seed Crate",
+  "block.assortment.crate_sugar_cane": "Sugarcane Crate",
   "block.assortment.crate_sugar": "Sugar Crate",
+  "block.assortment.crate_bamboo": "Bamboo Crate",
+  "block.assortment.crate_red_mushroom": "Red Mushroom Crate",
+  "block.assortment.crate_brown_mushroom": "Brown Mushroom Crate",
+
   "block.assortment.crate_flesh": "Flesh Crate",
   "block.assortment.crate_bone": "Bone Crate",
   "block.assortment.crate_spider_eye": "Spider Eye Crate",
-  "block.assortment.crate_sugar_cane": "Sugarcane Crate",
-  "block.assortment.crate_beetroot_seeds": "Beetroot Seed Crate",
-  "block.assortment.crate_bamboo": "Bamboo Crate",
+  "block.assortment.crate_gunpowder": "Gunpowder Crate",
+  "block.assortment.crate_slime": "Slime Crate",
 
   "block.assortment.sack_apple": "Apple Sack",
   "block.assortment.sack_golden_apple": "Golden Apple Sack",
@@ -108,18 +112,18 @@
   "block.assortment.sack_golden_carrot": "Golden Carrot Sack",
   "block.assortment.sack_potato": "Potato Sack",
   "block.assortment.sack_beetroot": "Beetroot Sack",
-  "block.assortment.sack_red_mushroom": "Red Mushroom Sack",
+  "block.assortment.sack_beetroot_seeds": "Beetroot Seed Sack",
+  "block.assortment.sack_sugar_cane": "Sugarcane Sack",
   "block.assortment.sack_sugar": "Sugar Sack",
+  "block.assortment.sack_bamboo": "Bamboo Sack",
+  "block.assortment.sack_red_mushroom": "Red Mushroom Sack",
+  "block.assortment.sack_brown_mushroom": "Brown Mushroom Sack",
+
   "block.assortment.sack_flesh": "Flesh Sack",
   "block.assortment.sack_bone": "Bone Sack",
   "block.assortment.sack_spider_eye": "Spider Eye Sack",
-  "block.assortment.sack_sugar_cane": "Sugarcane Sack",
-  "block.assortment.sack_beetroot_seeds": "Beetroot Seed Sack",
-  "block.assortment.sack_bamboo": "Bamboo Sack",
-
-
-
-
+  "block.assortment.sack_gunpowder": "Gunpowder Sack",
+  "block.assortment.sack_slime": "Slime Sack",
 
   "itemGroup.assortment.assortment_metals": "Assorted Metals",
   "itemGroup.assortment.assortment_misc": "Assorted Misc",

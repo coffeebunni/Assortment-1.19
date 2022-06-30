@@ -129,10 +129,22 @@ public class AssortmentBlockInit {
     public static final Block CRATE_BEETROOT = registerBlock("crate_beetroot",
             new BaseFacingBlock(FabricBlockSettings.copyOf(Blocks.BARREL)), AssortmentItemGroup.ASSORTMENT_COMPRESSIBLES);
 
-    public static final Block CRATE_RED_MUSHROOM = registerBlock("crate_red_mushroom",
+    public static final Block CRATE_BEETROOT_SEEDS = registerBlock("crate_beetroot_seeds",
+            new BaseFacingBlock(FabricBlockSettings.copyOf(Blocks.BARREL)), AssortmentItemGroup.ASSORTMENT_COMPRESSIBLES);
+
+    public static final Block CRATE_SUGAR_CANE = registerBlock("crate_sugar_cane",
             new BaseFacingBlock(FabricBlockSettings.copyOf(Blocks.BARREL)), AssortmentItemGroup.ASSORTMENT_COMPRESSIBLES);
 
     public static final Block CRATE_SUGAR = registerBlock("crate_sugar",
+            new BaseFacingBlock(FabricBlockSettings.copyOf(Blocks.BARREL)), AssortmentItemGroup.ASSORTMENT_COMPRESSIBLES);
+
+    public static final Block CRATE_BAMBOO = registerBlock("crate_bamboo",
+            new BaseFacingBlock(FabricBlockSettings.copyOf(Blocks.BARREL)), AssortmentItemGroup.ASSORTMENT_COMPRESSIBLES);
+
+    public static final Block CRATE_RED_MUSHROOM = registerBlock("crate_red_mushroom",
+            new BaseFacingBlock(FabricBlockSettings.copyOf(Blocks.BARREL)), AssortmentItemGroup.ASSORTMENT_COMPRESSIBLES);
+
+    public static final Block CRATE_BROWN_MUSHROOM = registerBlock("crate_brown_mushroom",
             new BaseFacingBlock(FabricBlockSettings.copyOf(Blocks.BARREL)), AssortmentItemGroup.ASSORTMENT_COMPRESSIBLES);
 
     public static final Block CRATE_FLESH = registerBlock("crate_flesh",
@@ -144,13 +156,10 @@ public class AssortmentBlockInit {
     public static final Block CRATE_SPIDER_EYE = registerBlock("crate_spider_eye",
             new BaseFacingBlock(FabricBlockSettings.copyOf(Blocks.BARREL)), AssortmentItemGroup.ASSORTMENT_COMPRESSIBLES);
 
-    public static final Block CRATE_SUGAR_CANE = registerBlock("crate_sugar_cane",
+    public static final Block CRATE_GUNPOWDER = registerBlock("crate_gunpowder",
             new BaseFacingBlock(FabricBlockSettings.copyOf(Blocks.BARREL)), AssortmentItemGroup.ASSORTMENT_COMPRESSIBLES);
 
-    public static final Block CRATE_BAMBOO = registerBlock("crate_bamboo",
-            new BaseFacingBlock(FabricBlockSettings.copyOf(Blocks.BARREL)), AssortmentItemGroup.ASSORTMENT_COMPRESSIBLES);
-
-    public static final Block CRATE_BEETROOT_SEEDS = registerBlock("crate_beetroot_seeds",
+    public static final Block CRATE_SLIME = registerBlock("crate_slime",
             new BaseFacingBlock(FabricBlockSettings.copyOf(Blocks.BARREL)), AssortmentItemGroup.ASSORTMENT_COMPRESSIBLES);
 
 
@@ -172,10 +181,22 @@ public class AssortmentBlockInit {
     public static final Block SACK_BEETROOT = registerBlock("sack_beetroot",
             new BaseFacingBlock(FabricBlockSettings.copyOf(Blocks.WHITE_WOOL)), AssortmentItemGroup.ASSORTMENT_COMPRESSIBLES);
 
-    public static final Block SACK_RED_MUSHROOM = registerBlock("sack_red_mushroom",
+    public static final Block SACK_BEETROOT_SEEDS = registerBlock("sack_beetroot_seeds",
+            new BaseFacingBlock(FabricBlockSettings.copyOf(Blocks.WHITE_WOOL)), AssortmentItemGroup.ASSORTMENT_COMPRESSIBLES);
+
+    public static final Block SACK_SUGAR_CANE = registerBlock("sack_sugar_cane",
             new BaseFacingBlock(FabricBlockSettings.copyOf(Blocks.WHITE_WOOL)), AssortmentItemGroup.ASSORTMENT_COMPRESSIBLES);
 
     public static final Block SACK_SUGAR = registerBlock("sack_sugar",
+            new BaseFacingBlock(FabricBlockSettings.copyOf(Blocks.WHITE_WOOL)), AssortmentItemGroup.ASSORTMENT_COMPRESSIBLES);
+
+    public static final Block SACK_BAMBOO = registerBlock("sack_bamboo",
+            new BaseFacingBlock(FabricBlockSettings.copyOf(Blocks.WHITE_WOOL)), AssortmentItemGroup.ASSORTMENT_COMPRESSIBLES);
+
+    public static final Block SACK_RED_MUSHROOM = registerBlock("sack_red_mushroom",
+            new BaseFacingBlock(FabricBlockSettings.copyOf(Blocks.WHITE_WOOL)), AssortmentItemGroup.ASSORTMENT_COMPRESSIBLES);
+
+    public static final Block SACK_BROWN_MUSHROOM = registerBlock("sack_brown_mushroom",
             new BaseFacingBlock(FabricBlockSettings.copyOf(Blocks.WHITE_WOOL)), AssortmentItemGroup.ASSORTMENT_COMPRESSIBLES);
 
     public static final Block SACK_FLESH = registerBlock("sack_flesh",
@@ -187,14 +208,12 @@ public class AssortmentBlockInit {
     public static final Block SACK_SPIDER_EYE = registerBlock("sack_spider_eye",
             new BaseFacingBlock(FabricBlockSettings.copyOf(Blocks.WHITE_WOOL)), AssortmentItemGroup.ASSORTMENT_COMPRESSIBLES);
 
-    public static final Block SACK_SUGAR_CANE = registerBlock("sack_sugar_cane",
+    public static final Block SACK_GUNPOWDER = registerBlock("sack_gunpowder",
             new BaseFacingBlock(FabricBlockSettings.copyOf(Blocks.WHITE_WOOL)), AssortmentItemGroup.ASSORTMENT_COMPRESSIBLES);
 
-    public static final Block SACK_BAMBOO = registerBlock("sack_bamboo",
+    public static final Block SACK_SLIME = registerBlock("sack_slime",
             new BaseFacingBlock(FabricBlockSettings.copyOf(Blocks.WHITE_WOOL)), AssortmentItemGroup.ASSORTMENT_COMPRESSIBLES);
 
-    public static final Block SACK_BEETROOT_SEEDS = registerBlock("sack_beetroot_seeds",
-            new BaseFacingBlock(FabricBlockSettings.copyOf(Blocks.WHITE_WOOL)), AssortmentItemGroup.ASSORTMENT_COMPRESSIBLES);
 
 
     private static Block registerBlock(String name, Block block, ItemGroup group) {

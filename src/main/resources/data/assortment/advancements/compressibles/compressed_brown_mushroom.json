@@ -1,0 +1,30 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_brown_mushroom": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:brown_mushroom"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_brown_mushroom"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "assortment:crate_brown_mushroom",
+      "assortment:crate_brown_mushroom_reversal",
+      "assortment:sack_brown_mushroom",
+      "assortment:sack_brown_mushroom_reversal"
+    ]
+  }
+}

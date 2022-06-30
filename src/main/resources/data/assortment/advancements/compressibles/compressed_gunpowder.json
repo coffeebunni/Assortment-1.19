@@ -1,0 +1,30 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_gunpowder": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:gunpowder"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_gunpowder"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "assortment:crate_gunpowder",
+      "assortment:crate_gunpowder_reversal",
+      "assortment:sack_gunpowder",
+      "assortment:sack_gunpowder_reversal"
+    ]
+  }
+}

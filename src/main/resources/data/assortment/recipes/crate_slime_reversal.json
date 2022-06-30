@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "assortment:crate_slime"
+    }
+  ],
+  "result": {
+    "count": 8,
+    "item": "minecraft:slime_ball"
+  }
+}

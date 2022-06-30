@@ -1,0 +1,10 @@
+{
+	"parent": "minecraft:block/orientable_with_bottom",
+	"textures": {
+		"bottom": "assortment:block/crate_bottom",
+		"front": "assortment:block/crate_side_brown_mushroom",
+		"side": "assortment:block/crate_side_brown_mushroom",
+		"top": "assortment:block/crate_top_brown_mushroom",
+		"particle": "assortment:block/crate_top_brown_mushroom"
+	}
+}

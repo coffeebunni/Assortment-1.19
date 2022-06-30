@@ -1,0 +1,30 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_slime": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:slime"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_slime"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "assortment:crate_slime",
+      "assortment:crate_slime_reversal",
+      "assortment:sack_slime",
+      "assortment:sack_slime_reversal"
+    ]
+  }
+}
