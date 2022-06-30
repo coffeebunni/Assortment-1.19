@@ -1,0 +1,30 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_blaze_powder": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:blaze_powder"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_blaze_powder"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "assortment:crate_blaze_powder",
+      "assortment:crate_blaze_powder_reversal",
+      "assortment:sack_blaze_powder",
+      "assortment:sack_blaze_powder_reversal"
+    ]
+  }
+}

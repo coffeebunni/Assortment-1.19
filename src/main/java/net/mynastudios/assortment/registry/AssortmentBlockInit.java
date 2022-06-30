@@ -162,6 +162,9 @@ public class AssortmentBlockInit {
     public static final Block CRATE_SLIME = registerBlock("crate_slime",
             new BaseFacingBlock(FabricBlockSettings.copyOf(Blocks.BARREL)), AssortmentItemGroup.ASSORTMENT_COMPRESSIBLES);
 
+    public static final Block CRATE_BLAZE_POWDER = registerBlock("crate_blaze_powder",
+            new BaseFacingBlock(FabricBlockSettings.copyOf(Blocks.BARREL)), AssortmentItemGroup.ASSORTMENT_COMPRESSIBLES);
+
 
     public static final Block SACK_APPLE = registerBlock("sack_apple",
             new BaseFacingBlock(FabricBlockSettings.copyOf(Blocks.WHITE_WOOL)), AssortmentItemGroup.ASSORTMENT_COMPRESSIBLES);
@@ -212,6 +215,9 @@ public class AssortmentBlockInit {
             new BaseFacingBlock(FabricBlockSettings.copyOf(Blocks.WHITE_WOOL)), AssortmentItemGroup.ASSORTMENT_COMPRESSIBLES);
 
     public static final Block SACK_SLIME = registerBlock("sack_slime",
+            new BaseFacingBlock(FabricBlockSettings.copyOf(Blocks.WHITE_WOOL)), AssortmentItemGroup.ASSORTMENT_COMPRESSIBLES);
+
+    public static final Block SACK_BLAZE_POWDER = registerBlock("sack_blaze_powder",
             new BaseFacingBlock(FabricBlockSettings.copyOf(Blocks.WHITE_WOOL)), AssortmentItemGroup.ASSORTMENT_COMPRESSIBLES);
 
 
