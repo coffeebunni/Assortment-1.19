@@ -104,8 +104,10 @@
   "block.assortment.crate_bone": "Bone Crate",
   "block.assortment.crate_spider_eye": "Spider Eye Crate",
   "block.assortment.crate_gunpowder": "Gunpowder Crate",
-  "block.assortment.crate_blaze_powder": "Blaze Powder Crate",
   "block.assortment.crate_slime": "Slime Crate",
+  "block.assortment.crate_blaze_powder": "Blaze Powder Crate",
+
+  "block.assortment.crate_egg": "Egg Crate",
 
   "block.assortment.sack_apple": "Apple Sack",
   "block.assortment.sack_golden_apple": "Golden Apple Sack",
@@ -119,13 +121,15 @@
   "block.assortment.sack_bamboo": "Bamboo Sack",
   "block.assortment.sack_red_mushroom": "Red Mushroom Sack",
   "block.assortment.sack_brown_mushroom": "Brown Mushroom Sack",
-  "block.assortment.sack_blaze_powder": "Blaze Powder Sack",
 
   "block.assortment.sack_flesh": "Flesh Sack",
   "block.assortment.sack_bone": "Bone Sack",
   "block.assortment.sack_spider_eye": "Spider Eye Sack",
   "block.assortment.sack_gunpowder": "Gunpowder Sack",
   "block.assortment.sack_slime": "Slime Sack",
+  "block.assortment.sack_blaze_powder": "Blaze Powder Sack",
+
+  "block.assortment.sack_egg": "Egg Sack",
 
   "itemGroup.assortment.assortment_metals": "Assorted Metals",
   "itemGroup.assortment.assortment_misc": "Assorted Misc",
