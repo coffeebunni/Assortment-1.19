@@ -1,0 +1,30 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_egg": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:egg"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_egg"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "assortment:crate_egg",
+      "assortment:crate_egg_reversal",
+      "assortment:sack_egg",
+      "assortment:sack_egg_reversal"
+    ]
+  }
+}
