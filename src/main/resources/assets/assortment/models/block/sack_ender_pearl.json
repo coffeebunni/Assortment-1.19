@@ -4,7 +4,7 @@
 		"bottom": "assortment:block/sack_bottom",
 		"front": "assortment:block/sack_front",
 		"side": "assortment:block/sack_side",
-		"top": "assortment:block/sack_top_slime",
-		"particle": "assortment:block/sack_top_slime"
+		"top": "assortment:block/sack_top_ender_pearl",
+		"particle": "assortment:block/sack_top_ender_pearl"
 	}
 }

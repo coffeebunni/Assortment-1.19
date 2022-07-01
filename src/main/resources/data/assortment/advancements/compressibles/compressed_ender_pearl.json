@@ -1,0 +1,30 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_ender_pearl": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:ender_pearl"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_ender_pearl"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "assortment:crate_ender_pearl",
+      "assortment:crate_ender_pearl_reversal",
+      "assortment:sack_ender_pearl",
+      "assortment:sack_ender_pearl_reversal"
+    ]
+  }
+}

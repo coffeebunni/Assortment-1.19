@@ -1,13 +1,13 @@
 {
   "parent": "minecraft:recipes/root",
   "criteria": {
-    "has_slime": {
+    "has_ender_eye": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
             "items": [
-              "minecraft:slime"
+              "minecraft:ender_eye"
             ]
           }
         ]
@@ -16,15 +16,15 @@
   },
   "requirements": [
     [
-      "has_slime"
+      "has_ender_eye"
     ]
   ],
   "rewards": {
     "recipes": [
-      "assortment:crate_slime",
-      "assortment:crate_slime_reversal",
-      "assortment:sack_slime",
-      "assortment:sack_slime_reversal"
+      "assortment:crate_ender_eye",
+      "assortment:crate_ender_eye_reversal",
+      "assortment:sack_ender_eye",
+      "assortment:sack_ender_eye_reversal"
     ]
   }
 }

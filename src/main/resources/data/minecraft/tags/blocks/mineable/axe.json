@@ -4,6 +4,27 @@
     "assortment:crate_melee",
     "assortment:crate_ranged",
     "assortment:crate_armor",
-    "assortment:crate_fishing"
+    "assortment:crate_fishing",
+    "assortment:crate_apple",
+    "assortment:crate_golden_apple",
+    "assortment:crate_carrot",
+    "assortment:crate_golden_carrot",
+    "assortment:crate_potato",
+    "assortment:crate_poisonous_potato",
+    "assortment:crate_beetroot",
+    "assortment:crate_beetroot_seeds",
+    "assortment:crate_sugar_cane",
+    "assortment:crate_sugar",
+    "assortment:crate_bamboo",
+    "assortment:crate_red_mushroom",
+    "assortment:crate_brown_mushroom",
+    "assortment:crate_flesh",
+    "assortment:crate_bone",
+    "assortment:crate_spider_eye",
+    "assortment:crate_gunpowder",
+    "assortment:crate_ender_pearl",
+    "assortment:crate_ender_eye",
+    "assortment:crate_blaze_powder",
+    "assortment:crate_egg"
   ]
 }
