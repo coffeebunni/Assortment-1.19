@@ -1,0 +1,30 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_string": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:string"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_string"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "assortment:crate_string",
+      "assortment:crate_string_reversal",
+      "assortment:sack_string",
+      "assortment:sack_string_reversal"
+    ]
+  }
+}

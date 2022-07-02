@@ -16,15 +16,21 @@
     "assortment:crate_sugar_cane",
     "assortment:crate_sugar",
     "assortment:crate_bamboo",
+    "assortment:crate_sea_pickle",
     "assortment:crate_red_mushroom",
     "assortment:crate_brown_mushroom",
     "assortment:crate_flesh",
     "assortment:crate_bone",
     "assortment:crate_spider_eye",
+    "assortment:crate_string",
     "assortment:crate_gunpowder",
     "assortment:crate_ender_pearl",
     "assortment:crate_ender_eye",
     "assortment:crate_blaze_powder",
-    "assortment:crate_egg"
+    "assortment:crate_phantom_membrane",
+    "assortment:crate_ink_sac",
+    "assortment:crate_glow_ink_sac",
+    "assortment:crate_egg",
+    "assortment:crate_feather"
   ]
 }
