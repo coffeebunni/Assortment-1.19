@@ -1,0 +1,30 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_sea_pickle": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:sea_pickle"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_sea_pickle"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "assortment:crate_sea_pickle",
+      "assortment:crate_sea_pickle_reversal",
+      "assortment:sack_sea_pickle",
+      "assortment:sack_sea_pickle_reversal"
+    ]
+  }
+}

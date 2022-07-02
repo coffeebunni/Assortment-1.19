@@ -1,0 +1,30 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_glow_ink_sac": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:glow_ink_sac"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_glow_ink_sac"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "assortment:crate_glow_ink_sac",
+      "assortment:crate_glow_ink_sac_reversal",
+      "assortment:sack_glow_ink_sac",
+      "assortment:sack_glow_ink_sac_reversal"
+    ]
+  }
+}
