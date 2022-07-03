@@ -1,0 +1,30 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_sweet_berries": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:sweet_berries"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_sweet_berries"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "assortment:crate_sweet_berries",
+      "assortment:crate_sweet_berries_reversal",
+      "assortment:sack_sweet_berries",
+      "assortment:sack_sweet_berries_reversal"
+    ]
+  }
+}

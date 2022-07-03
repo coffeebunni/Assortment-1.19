@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "assortment:block/crate_cactus"
+    },
+    "facing=east": {
+      "model": "assortment:block/crate_cactus",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "assortment:block/crate_cactus",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "assortment:block/crate_cactus",
+      "y": 270
+    }
+  }
+}

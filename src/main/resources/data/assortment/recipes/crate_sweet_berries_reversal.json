@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "assortment:crate_sweet_berries"
+    }
+  ],
+  "result": {
+    "count": 8,
+    "item": "minecraft:sweet_berries"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_crimson_fungus": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:crimson_fungus"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_crimson_fungus"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "assortment:crate_crimson_fungus",
+      "assortment:crate_crimson_fungus_reversal",
+      "assortment:sack_crimson_fungus",
+      "assortment:sack_crimson_fungus_reversal"
+    ]
+  }
+}

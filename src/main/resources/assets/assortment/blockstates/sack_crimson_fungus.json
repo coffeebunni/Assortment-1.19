@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "assortment:block/sack_crimson_fungus"
+    },
+    "facing=east": {
+      "model": "assortment:block/sack_crimson_fungus",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "assortment:block/sack_crimson_fungus",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "assortment:block/sack_crimson_fungus",
+      "y": 270
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_warped_fungus": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:warped_fungus"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_warped_fungus"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "assortment:crate_warped_fungus",
+      "assortment:crate_warped_fungus_reversal",
+      "assortment:sack_warped_fungus",
+      "assortment:sack_warped_fungus_reversal"
+    ]
+  }
+}

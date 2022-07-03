@@ -1,0 +1,10 @@
+{
+	"parent": "minecraft:block/orientable_with_bottom",
+	"textures": {
+		"bottom": "assortment:block/crate_bottom",
+		"front": "assortment:block/crate_side_cactus",
+		"side": "assortment:block/crate_side_cactus",
+		"top": "assortment:block/crate_top_cactus",
+		"particle": "assortment:block/crate_top_cactus"
+	}
+}
