@@ -1,0 +1,30 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_rabbit_hide": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:rabbit_hide"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_rabbit_hide"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "assortment:crate_rabbit_hide",
+      "assortment:crate_rabbit_hide_reversal",
+      "assortment:sack_rabbit_hide",
+      "assortment:sack_rabbit_hide_reversal"
+    ]
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "assortment:block/sack_blaze_rod"
+    },
+    "facing=east": {
+      "model": "assortment:block/sack_blaze_rod",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "assortment:block/sack_blaze_rod",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "assortment:block/sack_blaze_rod",
+      "y": 270
+    }
+  }
+}

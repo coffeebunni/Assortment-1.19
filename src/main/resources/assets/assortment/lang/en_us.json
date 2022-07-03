@@ -119,11 +119,14 @@
   "block.assortment.crate_blaze_powder": "Blaze Powder Crate",
   "block.assortment.crate_ghast_tear": "Ghast Tear Crate",
   "block.assortment.crate_phantom_membrane": "Phantom Membrane Crate",
+  "block.assortment.crate_blaze_rod": "Blaze Rod Crate",
 
   "block.assortment.crate_egg": "Egg Crate",
   "block.assortment.crate_feather": "Feather Crate",
   "block.assortment.crate_ink_sac": "Ink Sac Crate",
   "block.assortment.crate_glow_ink_sac": "Glow Ink Sac Crate",
+  "block.assortment.crate_leather": "Leather Crate",
+  "block.assortment.crate_rabbit_hide": "Rabbit Hide Crate",
 
   "block.assortment.sack_apple": "Apple Sack",
   "block.assortment.sack_golden_apple": "Golden Apple Sack",
@@ -157,11 +160,14 @@
   "block.assortment.sack_blaze_powder": "Blaze Powder Sack",
   "block.assortment.sack_ghast_tear": "Ghast Tear Sack",
   "block.assortment.sack_phantom_membrane": "Phantom Membrane Sack",
+  "block.assortment.sack_blaze_rod": "Blaze Rod Sack",
 
   "block.assortment.sack_egg": "Egg Sack",
   "block.assortment.sack_feather": "Feather Sack",
   "block.assortment.sack_ink_sac": "Ink Sac Sack",
   "block.assortment.sack_glow_ink_sac": "Glow Ink Sac Sack",
+  "block.assortment.sack_leather": "Leather Sack",
+  "block.assortment.sack_rabbit_hide": "Rabbit Hide Sack",
 
   "itemGroup.assortment.assortment_metals": "Assorted Metals",
   "itemGroup.assortment.assortment_misc": "Assorted Misc",

@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "assortment:block/crate_rabbit_hide"
+    },
+    "facing=east": {
+      "model": "assortment:block/crate_rabbit_hide",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "assortment:block/crate_rabbit_hide",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "assortment:block/crate_rabbit_hide",
+      "y": 270
+    }
+  }
+}

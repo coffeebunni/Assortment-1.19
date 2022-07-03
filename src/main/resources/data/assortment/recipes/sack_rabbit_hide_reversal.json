@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "assortment:sack_rabbit_hide"
+    }
+  ],
+  "result": {
+    "count": 8,
+    "item": "minecraft:rabbit_hide"
+  }
+}

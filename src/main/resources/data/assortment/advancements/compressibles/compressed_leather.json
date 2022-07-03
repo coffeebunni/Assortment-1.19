@@ -1,0 +1,30 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_leather": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:leather"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_leather"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "assortment:crate_leather",
+      "assortment:crate_leather_reversal",
+      "assortment:sack_leather",
+      "assortment:sack_leather_reversal"
+    ]
+  }
+}

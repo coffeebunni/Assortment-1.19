@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "assortment:block/crate_leather"
+    },
+    "facing=east": {
+      "model": "assortment:block/crate_leather",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "assortment:block/crate_leather",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "assortment:block/crate_leather",
+      "y": 270
+    }
+  }
+}

@@ -39,6 +39,9 @@
     "assortment:crate_ink_sac",
     "assortment:crate_glow_ink_sac",
     "assortment:crate_egg",
-    "assortment:crate_feather"
+    "assortment:crate_feather",
+    "assortment:crate_leather",
+    "assortment:crate_rabbit_hide",
+    "assortment:crate_blaze_rod"
   ]
 }

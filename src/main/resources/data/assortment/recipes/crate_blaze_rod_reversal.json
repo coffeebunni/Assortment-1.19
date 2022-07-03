@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "assortment:crate_blaze_rod"
+    }
+  ],
+  "result": {
+    "count": 8,
+    "item": "minecraft:blaze_rod"
+  }
+}

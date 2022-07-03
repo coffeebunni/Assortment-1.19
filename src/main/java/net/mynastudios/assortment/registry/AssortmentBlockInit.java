@@ -197,6 +197,9 @@ public class AssortmentBlockInit {
     public static final Block CRATE_BLAZE_POWDER = registerBlock("crate_blaze_powder",
             new BaseFacingBlock(FabricBlockSettings.copyOf(Blocks.BARREL)), AssortmentItemGroup.ASSORTMENT_COMPRESSIBLES);
 
+    public static final Block CRATE_BLAZE_ROD = registerBlock("crate_blaze_rod",
+            new BaseFacingBlock(FabricBlockSettings.copyOf(Blocks.BARREL)), AssortmentItemGroup.ASSORTMENT_COMPRESSIBLES);
+
     public static final Block CRATE_GHAST_TEAR = registerBlock("crate_ghast_tear",
             new BaseFacingBlock(FabricBlockSettings.copyOf(Blocks.BARREL)), AssortmentItemGroup.ASSORTMENT_COMPRESSIBLES);
 
@@ -213,6 +216,12 @@ public class AssortmentBlockInit {
             new BaseFacingBlock(FabricBlockSettings.copyOf(Blocks.BARREL)), AssortmentItemGroup.ASSORTMENT_COMPRESSIBLES);
 
     public static final Block CRATE_GLOW_INK_SAC = registerBlock("crate_glow_ink_sac",
+            new BaseFacingBlock(FabricBlockSettings.copyOf(Blocks.BARREL)), AssortmentItemGroup.ASSORTMENT_COMPRESSIBLES);
+
+    public static final Block CRATE_GLOW_LEATHER = registerBlock("crate_leather",
+            new BaseFacingBlock(FabricBlockSettings.copyOf(Blocks.BARREL)), AssortmentItemGroup.ASSORTMENT_COMPRESSIBLES);
+
+    public static final Block CRATE_GLOW_RABBIT_HIDE = registerBlock("crate_rabbit_hide",
             new BaseFacingBlock(FabricBlockSettings.copyOf(Blocks.BARREL)), AssortmentItemGroup.ASSORTMENT_COMPRESSIBLES);
 
 
@@ -309,6 +318,9 @@ public class AssortmentBlockInit {
     public static final Block SACK_PHANTOM_MEMBRANE = registerBlock("sack_phantom_membrane",
             new BaseFacingBlock(FabricBlockSettings.copyOf(Blocks.WHITE_WOOL).breakInstantly()), AssortmentItemGroup.ASSORTMENT_COMPRESSIBLES);
 
+    public static final Block SACK_BLAZE_ROD = registerBlock("sack_blaze_rod",
+            new BaseFacingBlock(FabricBlockSettings.copyOf(Blocks.WHITE_WOOL).breakInstantly()), AssortmentItemGroup.ASSORTMENT_COMPRESSIBLES);
+
     public static final Block SACK_EGG = registerBlock("sack_egg",
             new BaseFacingBlock(FabricBlockSettings.copyOf(Blocks.WHITE_WOOL).breakInstantly()), AssortmentItemGroup.ASSORTMENT_COMPRESSIBLES);
 
@@ -320,6 +332,13 @@ public class AssortmentBlockInit {
 
     public static final Block SACK_GLOW_INK_SAC = registerBlock("sack_glow_ink_sac",
             new BaseFacingBlock(FabricBlockSettings.copyOf(Blocks.WHITE_WOOL).breakInstantly()), AssortmentItemGroup.ASSORTMENT_COMPRESSIBLES);
+
+    public static final Block SACK_LEATHER = registerBlock("sack_leather",
+            new BaseFacingBlock(FabricBlockSettings.copyOf(Blocks.WHITE_WOOL).breakInstantly()), AssortmentItemGroup.ASSORTMENT_COMPRESSIBLES);
+
+    public static final Block SACK_RABBIT_HIDE = registerBlock("sack_rabbit_hide",
+            new BaseFacingBlock(FabricBlockSettings.copyOf(Blocks.WHITE_WOOL).breakInstantly()), AssortmentItemGroup.ASSORTMENT_COMPRESSIBLES);
+
 
     private static Block registerBlock(String name, Block block, ItemGroup group) {
         registerBlockItem(name, block, group);
