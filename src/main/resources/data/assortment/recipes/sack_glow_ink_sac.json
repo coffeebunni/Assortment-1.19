@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "#": {
+      "item": "minecraft:glow_ink_sac"
+    },
+    "X": {
+      "item": "assortment:thatch_block"
+    }
+  },
+  "pattern": [
+    "###",
+    "#X#",
+    "###"
+  ],
+  "result": {
+    "item": "assortment:sack_glow_ink_sac"
+  }
+}

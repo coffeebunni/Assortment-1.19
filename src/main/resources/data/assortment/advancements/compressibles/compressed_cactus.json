@@ -1,0 +1,30 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_cactus": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:cactus"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_cactus"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "assortment:crate_cactus",
+      "assortment:crate_cactus_reversal",
+      "assortment:sack_cactus",
+      "assortment:sack_cactus_reversal"
+    ]
+  }
+}

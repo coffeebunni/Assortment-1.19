@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "assortment:crate_phantom_membrane"
+    }
+  ],
+  "result": {
+    "count": 8,
+    "item": "minecraft:phantom_membrane"
+  }
+}

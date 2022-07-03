@@ -1,0 +1,10 @@
+{
+	"parent": "minecraft:block/orientable_with_bottom",
+	"textures": {
+		"bottom": "assortment:block/sack_bottom",
+		"front": "assortment:block/sack_front",
+		"side": "assortment:block/sack_side",
+		"top": "assortment:block/sack_top_warped_fungus",
+		"particle": "assortment:block/sack_top_warped_fungus"
+	}
+}

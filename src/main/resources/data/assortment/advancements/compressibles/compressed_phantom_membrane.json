@@ -1,0 +1,30 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_phantom_membrane": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:phantom_membrane"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_phantom_membrane"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "assortment:crate_phantom_membrane",
+      "assortment:crate_phantom_membrane_reversal",
+      "assortment:sack_phantom_membrane",
+      "assortment:sack_phantom_membrane_reversal"
+    ]
+  }
+}

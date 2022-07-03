@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "assortment:block/sack_sweet_berries"
+    },
+    "facing=east": {
+      "model": "assortment:block/sack_sweet_berries",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "assortment:block/sack_sweet_berries",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "assortment:block/sack_sweet_berries",
+      "y": 270
+    }
+  }
+}
